@@ -1,2240 +1,2076 @@
-{
-    "Hoja 1": [
+[
         {
-            "Canton": "San José",
-            "Poblacion": " 288 054"
+            "Canton": "SanJosé",
+            "Poblacion": "288054"
         },
         {
-            "Canton": "Carmen           ",
-            "Poblacion": " 2 702"
+            "Canton": "Carmen",
+            "Poblacion": "2702"
         },
         {
-            "Canton": "Merced         ",
-            "Poblacion": " 12 257"
+            "Canton": "Merced",
+            "Poblacion": "12257"
         },
         {
-            "Canton": "Hospital          ",
-            "Poblacion": " 19 270"
+            "Canton": "Hospital",
+            "Poblacion": "19270"
         },
         {
-            "Canton": "Catedral          ",
-            "Poblacion": " 12 936"
+            "Canton": "Catedral",
+            "Poblacion": "12936"
         },
         {
-            "Canton": "Zapote          ",
-            "Poblacion": " 18 679"
+            "Canton": "Zapote",
+            "Poblacion": "18679"
         },
         {
-            "Canton": "San Francisco de Dos Ríos",
-            "Poblacion": " 20 209"
-        },
-        {
-            "Canton": "Uruca            ",
-            "Poblacion": " 31 728"
-        },
-        {
-            "Canton": "Mata Redonda      ",
-            "Poblacion": " 8 313"
-        },
-        {
-            "Canton": "Pavas            ",
-            "Poblacion": " 71 384"
-        },
-        {
-            "Canton": "Hatillo           ",
-            "Poblacion": " 50 511"
-        },
-        {
-            "Canton": "San Sebastián     ",
-            "Poblacion": " 40 065"
-        },
-        {
-            "Canton": "Escazú",
-            "Poblacion": " 56 509"
-        },
-        {
-            "Canton": "Escazú            ",
-            "Poblacion": " 11 984"
-        },
-        {
-            "Canton": "San Antonio       ",
-            "Poblacion": " 22 554"
-        },
-        {
-            "Canton": "San Rafael        ",
-            "Poblacion": " 21 971"
-        },
-        {
-            "Canton": "Desamparados",
-            "Poblacion": " 208 411"
-        },
-        {
-            "Canton": "Desamparados      ",
-            "Poblacion": " 33 866"
-        },
-        {
-            "Canton": "San Miguel        ",
-            "Poblacion": " 31 805"
-        },
-        {
-            "Canton": "San Juan de Dios  ",
-            "Poblacion": " 19 481"
-        },
-        {
-            "Canton": "San Rafael Arriba ",
-            "Poblacion": " 15 262"
-        },
-        {
-            "Canton": "San Antonio       ",
-            "Poblacion": " 9 727"
-        },
-        {
-            "Canton": "Frailes           ",
-            "Poblacion": " 3 772"
-        },
-        {
-            "Canton": "Patarrá          ",
-            "Poblacion": " 11 921"
-        },
-        {
-            "Canton": "San Cristóbal     ",
-            "Poblacion": " 3 905"
-        },
-        {
-            "Canton": "Rosario           ",
-            "Poblacion": " 3 088"
-        },
-        {
-            "Canton": "Damas            ",
-            "Poblacion": " 13 175"
-        },
-        {
-            "Canton": "San Rafael Abajo  ",
-            "Poblacion": " 23 283"
-        },
-        {
-            "Canton": "Gravilias         ",
-            "Poblacion": " 15 024"
-        },
-        {
-            "Canton": "Los Guido",
-            "Poblacion": " 24 102"
-        },
-        {
-            "Canton": "Puriscal",
-            "Poblacion": " 33 004"
-        },
-        {
-            "Canton": "Santiago          ",
-            "Poblacion": " 11 512"
-        },
-        {
-            "Canton": "Mercedes Sur      ",
-            "Poblacion": " 5 866"
-        },
-        {
-            "Canton": "Barbacoas         ",
-            "Poblacion": " 3 692"
-        },
-        {
-            "Canton": "Grifo Alto        ",
-            "Poblacion": " 1 182"
-        },
-        {
-            "Canton": "San Rafael        ",
-            "Poblacion": " 1 730"
-        },
-        {
-            "Canton": "Candelarita       ",
-            "Poblacion": " 1 436"
-        },
-        {
-            "Canton": "Desamparaditos    ",
-            "Poblacion": "  666"
-        },
-        {
-            "Canton": "San Antonio       ",
-            "Poblacion": " 3 889"
-        },
-        {
-            "Canton": "Chires            ",
-            "Poblacion": " 3 031"
-        },
-        {
-            "Canton": "Tarrazú",
-            "Poblacion": " 16 280"
-        },
-        {
-            "Canton": "San Marcos        ",
-            "Poblacion": " 9 993"
-        },
-        {
-            "Canton": "San Lorenzo       ",
-            "Poblacion": " 4 394"
-        },
-        {
-            "Canton": "San Carlos        ",
-            "Poblacion": " 1 893"
-        },
-        {
-            "Canton": "Aserrí",
-            "Poblacion": " 57 892"
-        },
-        {
-            "Canton": "Aserrí            ",
-            "Poblacion": " 28 191"
-        },
-        {
-            "Canton": "Tarbaca     ",
-            "Poblacion": " 1 446"
-        },
-        {
-            "Canton": "Vuelta de Jorco   ",
-            "Poblacion": " 6 499"
-        },
-        {
-            "Canton": "San Gabriel       ",
-            "Poblacion": " 6 061"
-        },
-        {
-            "Canton": "Legua           ",
-            "Poblacion": " 1 521"
-        },
-        {
-            "Canton": "Monterrey         ",
-            "Poblacion": "  498"
-        },
-        {
-            "Canton": "Salitrillos       ",
-            "Poblacion": " 13 676"
-        },
-        {
-            "Canton": "Mora",
-            "Poblacion": " 26 294"
-        },
-        {
-            "Canton": "Colón            ",
-            "Poblacion": " 16 088"
-        },
-        {
-            "Canton": "Guayabo           ",
-            "Poblacion": " 4 449"
-        },
-        {
-            "Canton": "Tabarcia          ",
-            "Poblacion": " 4 703"
-        },
-        {
-            "Canton": "Piedras Negras    ",
-            "Poblacion": "  379"
-        },
-        {
-            "Canton": "Picagres          ",
-            "Poblacion": "  675"
-        },
-        {
-            "Canton": "Goicoechea",
-            "Poblacion": " 115 084"
-        },
-        {
-            "Canton": "Guadalupe         ",
-            "Poblacion": " 20 663"
-        },
-        {
-            "Canton": "San Francisco     ",
-            "Poblacion": " 2 032"
-        },
-        {
-            "Canton": "Calle Blancos     ",
-            "Poblacion": " 18 984"
-        },
-        {
-            "Canton": "Mata de Plátano   ",
-            "Poblacion": " 17 370"
-        },
-        {
-            "Canton": "Ipís             ",
-            "Poblacion": " 26 033"
-        },
-        {
-            "Canton": "Rancho Redondo    ",
-            "Poblacion": " 2 538"
-        },
-        {
-            "Canton": "Purral            ",
-            "Poblacion": " 27 464"
-        },
-        {
-            "Canton": "Santa Ana",
-            "Poblacion": " 49 123"
-        },
-        {
-            "Canton": "Santa Ana         ",
-            "Poblacion": " 11 320"
-        },
-        {
-            "Canton": "Salitral          ",
-            "Poblacion": " 4 304"
-        },
-        {
-            "Canton": "Pozos   ",
-            "Poblacion": " 15 585"
+            "Canton": "SanFranciscodeDosRíos",
+            "Poblacion": "20209"
         },
         {
             "Canton": "Uruca",
-            "Poblacion": " 7 200"
+            "Poblacion": "31728"
         },
         {
-            "Canton": "Piedades          ",
-            "Poblacion": " 8 128"
+            "Canton": "MataRedonda",
+            "Poblacion": "8313"
         },
         {
-            "Canton": "Brasil            ",
-            "Poblacion": " 2 586"
+            "Canton": "Pavas",
+            "Poblacion": "71384"
+        },
+        {
+            "Canton": "Hatillo",
+            "Poblacion": "50511"
+        },
+        {
+            "Canton": "SanSebastián",
+            "Poblacion": "40065"
+        },
+        {
+            "Canton": "Escazú",
+            "Poblacion": "56509"
+        },
+        {
+            "Canton": "SanAntonio",
+            "Poblacion": "22554"
+        },
+        {
+            "Canton": "SanRafael",
+            "Poblacion": "21971"
+        },
+        {
+            "Canton": "Desamparados",
+            "Poblacion": "208411"
+        },
+        {
+            "Canton": "SanMiguel",
+            "Poblacion": "31805"
+        },
+        {
+            "Canton": "SanJuandeDios",
+            "Poblacion": "19481"
+        },
+        {
+            "Canton": "SanRafaelArriba",
+            "Poblacion": "15262"
+        },
+        {
+            "Canton": "Frailes",
+            "Poblacion": "9727"
+        },
+        {
+            "Canton": "Patarrá",
+            "Poblacion": "3772"
+        },
+        {
+            "Canton": "SanCristóbal",
+            "Poblacion": "11921"
+        },
+        {
+            "Canton": "Rosario",
+            "Poblacion": "3905"
+        },
+        {
+            "Canton": "Damas",
+            "Poblacion": "3088"
+        },
+        {
+            "Canton": "SanRafaelAbajo",
+            "Poblacion": "13175"
+        },
+        {
+            "Canton": "Gravilias",
+            "Poblacion": "23283"
+        },
+        {
+            "Canton": "LosGuido",
+            "Poblacion": "15024"
+        },
+        {
+            "Poblacion": "24102"
+        },
+        {
+            "Canton": "Puriscal"
+        },
+        {
+            "Canton": "Santiago",
+            "Poblacion": "33004"
+        },
+        {
+            "Canton": "MercedesSur",
+            "Poblacion": "11512"
+        },
+        {
+            "Canton": "Barbacoas",
+            "Poblacion": "5866"
+        },
+        {
+            "Canton": "GrifoAlto",
+            "Poblacion": "3692"
+        },
+        {
+            "Canton": "Candelarita",
+            "Poblacion": "1182"
+        },
+        {
+            "Canton": "Desamparaditos",
+            "Poblacion": "1730"
+        },
+        {
+            "Canton": "Chires",
+            "Poblacion": "1436"
+        },
+        {
+            "Poblacion": "666"
+        },
+        {
+            "Canton": "Tarrazú",
+            "Poblacion": "3889"
+        },
+        {
+            "Canton": "SanMarcos",
+            "Poblacion": "3031"
+        },
+        {
+            "Canton": "SanLorenzo"
+        },
+        {
+            "Canton": "SanCarlos",
+            "Poblacion": "16280"
+        },
+        {
+            "Poblacion": "9993"
+        },
+        {
+            "Canton": "Aserrí",
+            "Poblacion": "4394"
+        },
+        {
+            "Canton": "Tarbaca"
+        },
+        {
+            "Canton": "VueltadeJorco",
+            "Poblacion": "57892"
+        },
+        {
+            "Canton": "SanGabriel",
+            "Poblacion": "28191"
+        },
+        {
+            "Canton": "Legua",
+            "Poblacion": "1446"
+        },
+        {
+            "Canton": "Monterrey",
+            "Poblacion": "6499"
+        },
+        {
+            "Canton": "Salitrillos",
+            "Poblacion": "6061"
+        },
+        {
+            "Poblacion": "1521"
+        },
+        {
+            "Canton": "Mora",
+            "Poblacion": "498"
+        },
+        {
+            "Canton": "Colón",
+            "Poblacion": "13676"
+        },
+        {
+            "Canton": "Guayabo"
+        },
+        {
+            "Canton": "Tabarcia",
+            "Poblacion": "26294"
+        },
+        {
+            "Canton": "PiedrasNegras",
+            "Poblacion": "16088"
+        },
+        {
+            "Canton": "Picagres",
+            "Poblacion": "4449"
+        },
+        {
+            "Poblacion": "4703"
+        },
+        {
+            "Canton": "Goicoechea",
+            "Poblacion": "379"
+        },
+        {
+            "Canton": "Guadalupe",
+            "Poblacion": "675"
+        },
+        {
+            "Canton": "SanFrancisco"
+        },
+        {
+            "Canton": "CalleBlancos",
+            "Poblacion": "115084"
+        },
+        {
+            "Canton": "MatadePlátano",
+            "Poblacion": "20663"
+        },
+        {
+            "Canton": "Ipís",
+            "Poblacion": "2032"
+        },
+        {
+            "Canton": "RanchoRedondo",
+            "Poblacion": "18984"
+        },
+        {
+            "Canton": "Purral",
+            "Poblacion": "17370"
+        },
+        {
+            "Poblacion": "26033"
+        },
+        {
+            "Canton": "SantaAna",
+            "Poblacion": "2538"
+        },
+        {
+            "Canton": "SantaAna",
+            "Poblacion": "27464"
+        },
+        {
+            "Canton": "Salitral"
+        },
+        {
+            "Canton": "Pozos",
+            "Poblacion": "49123"
+        },
+        {
+            "Canton": "Uruca",
+            "Poblacion": "11320"
+        },
+        {
+            "Canton": "Piedades",
+            "Poblacion": "4304"
+        },
+        {
+            "Canton": "Brasil",
+            "Poblacion": "15585"
+        },
+        {
+            "Poblacion": "7200"
         },
         {
             "Canton": "Alajuelita",
-            "Poblacion": " 77 603"
+            "Poblacion": "8128"
         },
         {
-            "Canton": "Alajuelita",
-            "Poblacion": " 11 988"
+            "Canton": "SanJosecito",
+            "Poblacion": "2586"
         },
         {
-            "Canton": "San Josecito      ",
-            "Poblacion": " 10 506"
+            "Canton": "Concepción"
         },
         {
-            "Canton": "San Antonio       ",
-            "Poblacion": " 4 739"
+            "Canton": "SanFelipe",
+            "Poblacion": "77603"
         },
         {
-            "Canton": "Concepción        ",
-            "Poblacion": " 18 721"
+            "Poblacion": "11988"
         },
         {
-            "Canton": "San Felipe        ",
-            "Poblacion": " 31 649"
+            "Canton": "VázquezdeCoronado",
+            "Poblacion": "10506"
         },
         {
-            "Canton": "Vázquez de Coronado",
-            "Poblacion": " 60 486"
+            "Canton": "SanIsidro",
+            "Poblacion": "4739"
         },
         {
-            "Canton": "San Isidro        ",
-            "Poblacion": " 16 625"
+            "Canton": "DulceNombredeJesús",
+            "Poblacion": "18721"
         },
         {
-            "Canton": "San Rafael        ",
-            "Poblacion": " 7 040"
+            "Canton": "Patalillo",
+            "Poblacion": "31649"
         },
         {
-            "Canton": "Dulce Nombre de Jesús",
-            "Poblacion": " 9 744"
+            "Canton": "Cascajal"
         },
         {
-            "Canton": "Patalillo         ",
-            "Poblacion": " 20 349"
-        },
-        {
-            "Canton": "Cascajal          ",
-            "Poblacion": " 6 728"
+            "Poblacion": "60486"
         },
         {
             "Canton": "Acosta",
-            "Poblacion": " 20 209"
+            "Poblacion": "16625"
         },
         {
-            "Canton": "San Ignacio       ",
-            "Poblacion": " 9 016"
+            "Canton": "SanIgnacio",
+            "Poblacion": "7040"
         },
         {
-            "Canton": "Guaitil           ",
-            "Poblacion": " 2 406"
+            "Canton": "Guaitil",
+            "Poblacion": "9744"
         },
         {
-            "Canton": "Palmichal         ",
-            "Poblacion": " 4 581"
+            "Canton": "Palmichal",
+            "Poblacion": "20349"
         },
         {
-            "Canton": "Cangrejal         ",
-            "Poblacion": " 1 875"
+            "Canton": "Cangrejal",
+            "Poblacion": "6728"
         },
         {
-            "Canton": "Sabanillas        ",
-            "Poblacion": " 2 331"
+            "Canton": "Sabanillas"
+        },
+        {
+            "Poblacion": "20209"
         },
         {
             "Canton": "Tibás",
-            "Poblacion": " 64 842"
+            "Poblacion": "9016"
         },
         {
-            "Canton": "San Juan          ",
-            "Poblacion": " 21 745"
+            "Canton": "SanJuan",
+            "Poblacion": "2406"
         },
         {
-            "Canton": "Cinco Esquinas    ",
-            "Poblacion": " 5 925"
+            "Canton": "CincoEsquinas",
+            "Poblacion": "4581"
         },
         {
-            "Canton": "Anselmo Llorente  ",
-            "Poblacion": " 9 986"
+            "Canton": "AnselmoLlorente",
+            "Poblacion": "1875"
         },
         {
-            "Canton": "León XIII     ",
-            "Poblacion": " 13 661"
+            "Canton": "LeónXIII",
+            "Poblacion": "2331"
         },
         {
-            "Canton": "Colima            ",
-            "Poblacion": " 13 525"
+            "Canton": "Colima"
+        },
+        {
+            "Poblacion": "64842"
         },
         {
             "Canton": "Moravia",
-            "Poblacion": " 56 919"
+            "Poblacion": "21745"
         },
         {
-            "Canton": "San Vicente       ",
-            "Poblacion": " 30 998"
+            "Canton": "SanVicente",
+            "Poblacion": "5925"
         },
         {
-            "Canton": "San Jerónimo      ",
-            "Poblacion": " 6 154"
+            "Canton": "SanJerónimo",
+            "Poblacion": "9986"
         },
         {
-            "Canton": "La Trinidad       ",
-            "Poblacion": " 19 767"
+            "Canton": "LaTrinidad",
+            "Poblacion": "13661"
         },
         {
-            "Canton": "Montes de Oca",
-            "Poblacion": " 49 132"
+            "Poblacion": "13525"
         },
         {
-            "Canton": "San Pedro         ",
-            "Poblacion": " 23 977"
+            "Canton": "MontesdeOca"
         },
         {
-            "Canton": "Sabanilla         ",
-            "Poblacion": " 10 775"
+            "Canton": "SanPedro",
+            "Poblacion": "56919"
+        },
+        {
+            "Canton": "Sabanilla",
+            "Poblacion": "30998"
         },
         {
             "Canton": "Mercedes",
-            "Poblacion": " 4 688"
+            "Poblacion": "6154"
         },
         {
-            "Canton": "San Rafael        ",
-            "Poblacion": " 9 692"
+            "Poblacion": "19767"
         },
         {
-            "Canton": "Turrubares",
-            "Poblacion": " 5 512"
+            "Canton": "Turrubares"
         },
         {
-            "Canton": "San Pablo         ",
-            "Poblacion": " 1 357"
+            "Canton": "SanPablo",
+            "Poblacion": "49132"
         },
         {
-            "Canton": "San Pedro         ",
-            "Poblacion": "  646"
+            "Canton": "SanJuandeMata",
+            "Poblacion": "23977"
         },
         {
-            "Canton": "San Juan de Mata  ",
-            "Poblacion": " 1 182"
-        },
-        {
-            "Canton": "San Luis          ",
-            "Poblacion": "  517"
+            "Canton": "SanLuis",
+            "Poblacion": "10775"
         },
         {
             "Canton": "Carara",
-            "Poblacion": " 1 810"
+            "Poblacion": "4688"
         },
         {
-            "Canton": "Dota",
-            "Poblacion": " 6 948"
+            "Poblacion": "9692"
         },
         {
-            "Canton": "Santa María       ",
-            "Poblacion": " 4 621"
+            "Canton": "Dota"
         },
         {
-            "Canton": "Jardín            ",
-            "Poblacion": "  524"
+            "Canton": "SantaMaría",
+            "Poblacion": "5512"
         },
         {
-            "Canton": "Copey            ",
-            "Poblacion": " 1 803"
+            "Canton": "Jardín",
+            "Poblacion": "1357"
+        },
+        {
+            "Canton": "Copey",
+            "Poblacion": "646"
+        },
+        {
+            "Poblacion": "1182"
         },
         {
             "Canton": "Curridabat",
-            "Poblacion": " 65 206"
+            "Poblacion": "517"
         },
         {
-            "Canton": "Curridabat        ",
-            "Poblacion": " 28 817"
+            "Canton": "Curridabat",
+            "Poblacion": "1810"
         },
         {
-            "Canton": "Granadilla        ",
-            "Poblacion": " 14 778"
+            "Canton": "Granadilla"
         },
         {
-            "Canton": "Sánchez           ",
-            "Poblacion": " 5 364"
+            "Canton": "Sánchez",
+            "Poblacion": "6948"
         },
         {
-            "Canton": "Tirrases          ",
-            "Poblacion": " 16 247"
+            "Canton": "Tirrases",
+            "Poblacion": "4621"
         },
         {
-            "Canton": "Pérez Zeledón",
-            "Poblacion": " 134 534"
+            "Poblacion": "524"
         },
         {
-            "Canton": "San Isidro de El General",
-            "Poblacion": " 45 327"
+            "Canton": "PérezZeledón",
+            "Poblacion": "1803"
         },
         {
-            "Canton": "El General        ",
-            "Poblacion": " 6 373"
+            "Canton": "SanIsidrodeElGeneral"
         },
         {
-            "Canton": "Daniel Flores     ",
-            "Poblacion": " 33 537"
+            "Canton": "ElGeneral",
+            "Poblacion": "65206"
         },
         {
-            "Canton": "Rivas            ",
-            "Poblacion": " 6 591"
+            "Canton": "DanielFlores",
+            "Poblacion": "28817"
         },
         {
-            "Canton": "San Pedro         ",
-            "Poblacion": " 9 102"
+            "Canton": "Rivas",
+            "Poblacion": "14778"
         },
         {
-            "Canton": "Platanares        ",
-            "Poblacion": " 7 203"
+            "Canton": "Platanares",
+            "Poblacion": "7203"
         },
         {
-            "Canton": "Pejibaye          ",
-            "Poblacion": " 7 995"
+            "Canton": "Pejibaye",
+            "Poblacion": "7995"
         },
         {
-            "Canton": "Cajón  ",
-            "Poblacion": " 8 542"
+            "Canton": "Cajón",
+            "Poblacion": "8542"
         },
         {
-            "Canton": "Barú             ",
-            "Poblacion": " 2 393"
+            "Canton": "Barú",
+            "Poblacion": "2393"
         },
         {
-            "Canton": "Río Nuevo         ",
-            "Poblacion": " 3 061"
+            "Canton": "RíoNuevo",
+            "Poblacion": "3061"
         },
         {
-            "Canton": "Páramo            ",
-            "Poblacion": " 4 410"
+            "Canton": "Páramo",
+            "Poblacion": "4410"
         },
         {
-            "Canton": "León Cortés Castro",
-            "Poblacion": " 12 200"
+            "Canton": "LeónCortésCastro",
+            "Poblacion": "12200"
         },
         {
-            "Canton": "San Pablo         ",
-            "Poblacion": " 4 209"
+            "Canton": "SanPablo",
+            "Poblacion": "4209"
         },
         {
-            "Canton": "San Andrés        ",
-            "Poblacion": " 1 578"
+            "Canton": "SanAndrés",
+            "Poblacion": "1578"
         },
         {
-            "Canton": "Llano Bonito      ",
-            "Poblacion": " 2 111"
+            "Canton": "LlanoBonito",
+            "Poblacion": "2111"
         },
         {
-            "Canton": "San Isidro        ",
-            "Poblacion": " 1 531"
+            "Canton": "SanIsidro",
+            "Poblacion": "1531"
         },
         {
-            "Canton": "Santa Cruz        ",
-            "Poblacion": " 1 665"
+            "Canton": "SantaCruz",
+            "Poblacion": "1665"
         },
         {
-            "Canton": "San Antonio       ",
-            "Poblacion": " 1 106"
+            "Canton": "SanAntonio",
+            "Poblacion": "1106"
         },
         {
             "Canton": "Alajuela",
-            "Poblacion": " 848 146"
+            "Poblacion": "848146"
         },
         {
-            "Canton": "Alajuela",
-            "Poblacion": " 254 886"
+            "Canton": "Carrizal",
+            "Poblacion": "6856"
         },
         {
-            "Canton": "Alajuela          ",
-            "Poblacion": " 42 975"
+            "Canton": "SanAntonio",
+            "Poblacion": "24971"
         },
         {
-            "Canton": "San José          ",
-            "Poblacion": " 41 656"
+            "Canton": "Guácima",
+            "Poblacion": "20183"
         },
         {
-            "Canton": "Carrizal          ",
-            "Poblacion": " 6 856"
+            "Canton": "SanIsidro",
+            "Poblacion": "17294"
         },
         {
-            "Canton": "San Antonio       ",
-            "Poblacion": " 24 971"
+            "Canton": "Sabanilla",
+            "Poblacion": "9059"
         },
         {
-            "Canton": "Guácima           ",
-            "Poblacion": " 20 183"
+            "Canton": "SanRafael",
+            "Poblacion": "26248"
         },
         {
-            "Canton": "San Isidro        ",
-            "Poblacion": " 17 294"
+            "Canton": "RíoSegundo",
+            "Poblacion": "10794"
         },
         {
-            "Canton": "Sabanilla         ",
-            "Poblacion": " 9 059"
+            "Canton": "Desamparados",
+            "Poblacion": "26109"
         },
         {
-            "Canton": "San Rafael        ",
-            "Poblacion": " 26 248"
+            "Canton": "Turrúcares",
+            "Poblacion": "7630"
         },
         {
-            "Canton": "Río Segundo       ",
-            "Poblacion": " 10 794"
+            "Canton": "Tambor",
+            "Poblacion": "10992"
         },
         {
-            "Canton": "Desamparados      ",
-            "Poblacion": " 26 109"
-        },
-        {
-            "Canton": "Turrúcares        ",
-            "Poblacion": " 7 630"
-        },
-        {
-            "Canton": "Tambor            ",
-            "Poblacion": " 10 992"
-        },
-        {
-            "Canton": "Garita          ",
-            "Poblacion": " 7 277"
-        },
-        {
-            "Canton": "Sarapiquí         ",
-            "Poblacion": " 2 842"
-        },
-        {
-            "Canton": "San Ramón",
-            "Poblacion": " 80 566"
-        },
-        {
-            "Canton": "San Ramón         ",
-            "Poblacion": " 8 717"
-        },
-        {
-            "Canton": "Santiago          ",
-            "Poblacion": " 4 535"
-        },
-        {
-            "Canton": "San Juan          ",
-            "Poblacion": " 11 695"
-        },
-        {
-            "Canton": "Piedades Norte    ",
-            "Poblacion": " 8 147"
-        },
-        {
-            "Canton": "Piedades Sur      ",
-            "Poblacion": " 3 738"
-        },
-        {
-            "Canton": "San Rafael        ",
-            "Poblacion": " 9 321"
-        },
-        {
-            "Canton": "San Isidro        ",
-            "Poblacion": " 4 478"
-        },
-        {
-            "Canton": "Ángeles           ",
-            "Poblacion": " 8 500"
-        },
-        {
-            "Canton": "Alfaro            ",
-            "Poblacion": " 7 137"
-        },
-        {
-            "Canton": "Volio            ",
-            "Poblacion": " 2 270"
-        },
-        {
-            "Canton": "Concepción        ",
-            "Poblacion": " 2 348"
-        },
-        {
-            "Canton": "Zapotal           ",
-            "Poblacion": "  391"
-        },
-        {
-            "Canton": "Peñas Blancas ",
-            "Poblacion": " 9 289"
-        },
-        {
-            "Canton": "Grecia",
-            "Poblacion": " 76 898"
-        },
-        {
-            "Canton": "Grecia            ",
-            "Poblacion": " 14 859"
-        },
-        {
-            "Canton": "San Isidro        ",
-            "Poblacion": " 5 949"
-        },
-        {
-            "Canton": "San José          ",
-            "Poblacion": " 8 100"
-        },
-        {
-            "Canton": "San Roque         ",
-            "Poblacion": " 11 132"
-        },
-        {
-            "Canton": "Tacares           ",
-            "Poblacion": " 7 963"
-        },
-        {
-            "Canton": "Río Cuarto        ",
-            "Poblacion": " 11 074"
-        },
-        {
-            "Canton": "Puente de Piedra  ",
-            "Poblacion": " 10 556"
-        },
-        {
-            "Canton": "Bolívar           ",
-            "Poblacion": " 7 265"
-        },
-        {
-            "Canton": "San Mateo",
-            "Poblacion": " 6 136"
-        },
-        {
-            "Canton": "San Mateo         ",
-            "Poblacion": " 2 692"
-        },
-        {
-            "Canton": "Desmonte          ",
-            "Poblacion": " 1 047"
-        },
-        {
-            "Canton": "Jesús María       ",
-            "Poblacion": " 2 397"
-        },
-        {
-            "Canton": "Atenas",
-            "Poblacion": " 25 460"
-        },
-        {
-            "Canton": "Atenas            ",
-            "Poblacion": " 7 546"
-        },
-        {
-            "Canton": "Jesús            ",
-            "Poblacion": " 3 631"
-        },
-        {
-            "Canton": "Mercedes          ",
-            "Poblacion": " 3 127"
-        },
-        {
-            "Canton": "San Isidro        ",
-            "Poblacion": " 2 813"
-        },
-        {
-            "Canton": "Concepción        ",
-            "Poblacion": " 3 473"
-        },
-        {
-            "Canton": "San José          ",
-            "Poblacion": " 1 940"
-        },
-        {
-            "Canton": "Santa Eulalia     ",
-            "Poblacion": " 2 082"
-        },
-        {
-            "Canton": "Escobal",
-            "Poblacion": "  848"
-        },
-        {
-            "Canton": "Naranjo",
-            "Poblacion": " 42 713"
-        },
-        {
-            "Canton": "Naranjo           ",
-            "Poblacion": " 15 936"
-        },
-        {
-            "Canton": "San Miguel        ",
-            "Poblacion": " 4 657"
-        },
-        {
-            "Canton": "San José          ",
-            "Poblacion": " 3 162"
-        },
-        {
-            "Canton": "Cirrí Sur         ",
-            "Poblacion": " 4 552"
-        },
-        {
-            "Canton": "San Jerónimo      ",
-            "Poblacion": " 3 264"
-        },
-        {
-            "Canton": "San Juan          ",
-            "Poblacion": " 3 114"
-        },
-        {
-            "Canton": "El Rosario        ",
-            "Poblacion": " 3 757"
-        },
-        {
-            "Canton": "Palmitos",
-            "Poblacion": " 4 271"
-        },
-        {
-            "Canton": "Palmares",
-            "Poblacion": " 34 716"
-        },
-        {
-            "Canton": "Palmares          ",
-            "Poblacion": " 3 599"
-        },
-        {
-            "Canton": "Zaragoza          ",
-            "Poblacion": " 8 219"
-        },
-        {
-            "Canton": "Buenos Aires      ",
-            "Poblacion": " 7 493"
-        },
-        {
-            "Canton": "Santiago          ",
-            "Poblacion": " 2 737"
-        },
-        {
-            "Canton": "Candelaria        ",
-            "Poblacion": " 1 961"
-        },
-        {
-            "Canton": "Esquipulas        ",
-            "Poblacion": " 6 588"
-        },
-        {
-            "Canton": "La Granja         ",
-            "Poblacion": " 4 119"
-        },
-        {
-            "Canton": "Poás",
-            "Poblacion": " 29 199"
-        },
-        {
-            "Canton": "San Pedro         ",
-            "Poblacion": " 7 554"
-        },
-        {
-            "Canton": "San Juan          ",
-            "Poblacion": " 4 638"
-        },
-        {
-            "Canton": "San Rafael        ",
-            "Poblacion": " 5 436"
-        },
-        {
-            "Canton": "Carrillos         ",
-            "Poblacion": " 9 228"
-        },
-        {
-            "Canton": "Sabana Redonda    ",
-            "Poblacion": " 2 343"
-        },
-        {
-            "Canton": "Orotina",
-            "Poblacion": " 20 341"
-        },
-        {
-            "Canton": "Orotina           ",
-            "Poblacion": " 9 664"
-        },
-        {
-            "Canton": "El Mastate        ",
-            "Poblacion": " 1 821"
-        },
-        {
-            "Canton": "Hacienda Vieja    ",
-            "Poblacion": " 1 022"
-        },
-        {
-            "Canton": "Coyolar           ",
-            "Poblacion": " 5 912"
-        },
-        {
-            "Canton": "La Ceiba          ",
-            "Poblacion": " 1 922"
-        },
-        {
-            "Canton": "San Carlos",
-            "Poblacion": " 163 745"
-        },
-        {
-            "Canton": "Quesada           ",
-            "Poblacion": " 42 060"
-        },
-        {
-            "Canton": "Florencia         ",
-            "Poblacion": " 15 149"
-        },
-        {
-            "Canton": "Buenavista        ",
-            "Poblacion": "  325"
-        },
-        {
-            "Canton": "Aguas Zarcas      ",
-            "Poblacion": " 20 239"
-        },
-        {
-            "Canton": "Venecia           ",
-            "Poblacion": " 9 638"
-        },
-        {
-            "Canton": "Pital            ",
-            "Poblacion": " 17 318"
-        },
-        {
-            "Canton": "La Fortuna        ",
-            "Poblacion": " 15 383"
-        },
-        {
-            "Canton": "La Tigra          ",
-            "Poblacion": " 6 374"
-        },
-        {
-            "Canton": "La Palmera        ",
-            "Poblacion": " 6 321"
-        },
-        {
-            "Canton": "Venado            ",
-            "Poblacion": " 1 754"
-        },
-        {
-            "Canton": "Cutris            ",
-            "Poblacion": " 10 334"
-        },
-        {
-            "Canton": "Monterrey         ",
-            "Poblacion": " 3 455"
-        },
-        {
-            "Canton": "Pocosol           ",
-            "Poblacion": " 15 395"
-        },
-        {
-            "Canton": "Zarcero",
-            "Poblacion": " 12 205"
-        },
-        {
-            "Canton": "Zarcero           ",
-            "Poblacion": " 4 004"
-        },
-        {
-            "Canton": "Laguna            ",
-            "Poblacion": " 1 674"
-        },
-        {
-            "Canton": "Tapesco           ",
-            "Poblacion": " 1 305"
-        },
-        {
-            "Canton": "Guadalupe         ",
-            "Poblacion": " 1 148"
-        },
-        {
-            "Canton": "Palmira           ",
-            "Poblacion": " 1 334"
-        },
-        {
-            "Canton": "Zapote            ",
-            "Poblacion": "  739"
-        },
-        {
-            "Canton": "Brisas          ",
-            "Poblacion": " 2 001"
-        },
-        {
-            "Canton": "Valverde Vega",
-            "Poblacion": " 18 085"
-        },
-        {
-            "Canton": "Sarchí Norte      ",
-            "Poblacion": " 7 140"
-        },
-        {
-            "Canton": "Sarchí Sur        ",
-            "Poblacion": " 5 143"
-        },
-        {
-            "Canton": "Toro Amarillo     ",
-            "Poblacion": "  273"
-        },
-        {
-            "Canton": "San Pedro         ",
-            "Poblacion": " 3 408"
-        },
-        {
-            "Canton": "Rodríguez         ",
-            "Poblacion": " 2 121"
-        },
-        {
-            "Canton": "Upala",
-            "Poblacion": " 43 953"
-        },
-        {
-            "Canton": "Upala            ",
-            "Poblacion": " 16 139"
-        },
-        {
-            "Canton": "Aguas Claras      ",
-            "Poblacion": " 4 939"
-        },
-        {
-            "Canton": "San José o Pizote ",
-            "Poblacion": " 7 352"
-        },
-        {
-            "Canton": "Bijagua           ",
-            "Poblacion": " 4 538"
-        },
-        {
-            "Canton": "Delicias          ",
-            "Poblacion": " 4 483"
-        },
-        {
-            "Canton": "Dos Ríos          ",
-            "Poblacion": " 3 194"
-        },
-        {
-            "Canton": "Yolillal          ",
-            "Poblacion": " 3 308"
-        },
-        {
-            "Canton": "Los Chiles",
-            "Poblacion": " 23 735"
-        },
-        {
-            "Canton": "Los Chiles        ",
-            "Poblacion": " 13 262"
-        },
-        {
-            "Canton": "Caño Negro        ",
-            "Poblacion": " 1 808"
-        },
-        {
-            "Canton": "El Amparo         ",
-            "Poblacion": " 5 992"
-        },
-        {
-            "Canton": "San Jorge         ",
-            "Poblacion": " 2 673"
-        },
-        {
-            "Canton": "Guatuso",
-            "Poblacion": " 15 508"
-        },
-        {
-            "Canton": "San Rafael        ",
-            "Poblacion": " 7 941"
-        },
-        {
-            "Canton": "Buenavista        ",
-            "Poblacion": " 1 573"
-        },
-        {
-            "Canton": "Cote             ",
-            "Poblacion": "  867"
-        },
-        {
-            "Canton": "Katira",
-            "Poblacion": " 5 127"
-        },
-        {
-            "Canton": "Cartago",
-            "Poblacion": " 490 903"
-        },
-        {
-            "Canton": "Cartago",
-            "Poblacion": " 147 898"
-        },
-        {
-            "Canton": "Oriental          ",
-            "Poblacion": " 12 228"
-        },
-        {
-            "Canton": "Occidental        ",
-            "Poblacion": " 9 901"
-        },
-        {
-            "Canton": "Carmen          ",
-            "Poblacion": " 17 425"
-        },
-        {
-            "Canton": "San Nicolás       ",
-            "Poblacion": " 25 948"
-        },
-        {
-            "Canton": "Aguacaliente o San Francisco",
-            "Poblacion": " 31 789"
-        },
-        {
-            "Canton": "Guadalupe o Arenilla",
-            "Poblacion": " 14 618"
-        },
-        {
-            "Canton": "Corralillo        ",
-            "Poblacion": " 10 647"
-        },
-        {
-            "Canton": "Tierra Blanca     ",
-            "Poblacion": " 5 103"
-        },
-        {
-            "Canton": "Dulce Nombre      ",
-            "Poblacion": " 10 548"
-        },
-        {
-            "Canton": "Llano Grande      ",
-            "Poblacion": " 4 342"
-        },
-        {
-            "Canton": "Quebradilla       ",
-            "Poblacion": " 5 349"
-        },
-        {
-            "Canton": "Paraíso",
-            "Poblacion": " 57 743"
-        },
-        {
-            "Canton": "Paraíso           ",
-            "Poblacion": " 20 601"
-        },
-        {
-            "Canton": "Santiago          ",
-            "Poblacion": " 5 534"
-        },
-        {
-            "Canton": "Orosi            ",
-            "Poblacion": " 9 084"
-        },
-        {
-            "Canton": "Cachí            ",
-            "Poblacion": " 5 438"
-        },
-        {
-            "Canton": "Llanos de Santa Lucía",
-            "Poblacion": " 17 086"
-        },
-        {
-            "Canton": "La Unión",
-            "Poblacion": " 99 399"
-        },
-        {
-            "Canton": "Tres Ríos         ",
-            "Poblacion": " 9 331"
-        },
-        {
-            "Canton": "San Diego         ",
-            "Poblacion": " 21 620"
-        },
-        {
-            "Canton": "San Juan          ",
-            "Poblacion": " 13 729"
-        },
-        {
-            "Canton": "San Rafael        ",
-            "Poblacion": " 14 247"
-        },
-        {
-            "Canton": "Concepción        ",
-            "Poblacion": " 16 515"
-        },
-        {
-            "Canton": "Dulce Nombre      ",
-            "Poblacion": " 7 893"
-        },
-        {
-            "Canton": "San Ramón         ",
-            "Poblacion": " 4 054"
-        },
-        {
-            "Canton": "Río Azul          ",
-            "Poblacion": " 12 010"
-        },
-        {
-            "Canton": "Jiménez",
-            "Poblacion": " 14 669"
-        },
-        {
-            "Canton": "Juan Viñas        ",
-            "Poblacion": " 6 552"
-        },
-        {
-            "Canton": "Tucurrique        ",
-            "Poblacion": " 4 872"
-        },
-        {
-            "Canton": "Pejibaye          ",
-            "Poblacion": " 3 245"
-        },
-        {
-            "Canton": "Turrialba",
-            "Poblacion": " 69 616"
-        },
-        {
-            "Canton": "Turrialba         ",
-            "Poblacion": " 26 680"
-        },
-        {
-            "Canton": "La Suiza          ",
-            "Poblacion": " 7 590"
-        },
-        {
-            "Canton": "Peralta           ",
-            "Poblacion": "  511"
-        },
-        {
-            "Canton": "Santa Cruz        ",
-            "Poblacion": " 3 208"
-        },
-        {
-            "Canton": "Santa Teresita    ",
-            "Poblacion": " 4 744"
-        },
-        {
-            "Canton": "Pavones           ",
-            "Poblacion": " 4 331"
-        },
-        {
-            "Canton": "Tuis             ",
-            "Poblacion": " 2 837"
-        },
-        {
-            "Canton": "Tayutic           ",
-            "Poblacion": " 2 374"
-        },
-        {
-            "Canton": "Santa Rosa        ",
-            "Poblacion": " 5 232"
-        },
-        {
-            "Canton": "Tres Equis        ",
-            "Poblacion": " 1 808"
-        },
-        {
-            "Canton": "La Isabel",
-            "Poblacion": " 6 116"
-        },
-        {
-            "Canton": "Chirripó",
-            "Poblacion": " 4 185"
-        },
-        {
-            "Canton": "Alvarado",
-            "Poblacion": " 14 312"
-        },
-        {
-            "Canton": "Pacayas           ",
-            "Poblacion": " 5 628"
-        },
-        {
-            "Canton": "Cervantes         ",
-            "Poblacion": " 6 230"
-        },
-        {
-            "Canton": "Capellades        ",
-            "Poblacion": " 2 454"
-        },
-        {
-            "Canton": "Oreamuno",
-            "Poblacion": " 45 473"
-        },
-        {
-            "Canton": "San Rafael        ",
-            "Poblacion": " 27 248"
-        },
-        {
-            "Canton": "Cot             ",
-            "Poblacion": " 9 630"
-        },
-        {
-            "Canton": "Potrero Cerrado   ",
-            "Poblacion": " 2 281"
-        },
-        {
-            "Canton": "Cipreses          ",
-            "Poblacion": " 3 700"
-        },
-        {
-            "Canton": "Santa Rosa        ",
-            "Poblacion": " 2 614"
-        },
-        {
-            "Canton": "El Guarco",
-            "Poblacion": " 41 793"
-        },
-        {
-            "Canton": "El Tejar          ",
-            "Poblacion": " 24 984"
-        },
-        {
-            "Canton": "San Isidro        ",
-            "Poblacion": " 9 828"
-        },
-        {
-            "Canton": "Tobosi            ",
-            "Poblacion": " 6 569"
-        },
-        {
-            "Canton": "Patio de Agua     ",
-            "Poblacion": "  412"
-        },
-        {
-            "Canton": "Heredia",
-            "Poblacion": " 433 677"
-        },
-        {
-            "Canton": "Heredia",
-            "Poblacion": " 123 616"
-        },
-        {
-            "Canton": "Heredia           ",
-            "Poblacion": " 18 697"
-        },
-        {
-            "Canton": "Mercedes          ",
-            "Poblacion": " 25 744"
-        },
-        {
-            "Canton": "San Francisco     ",
-            "Poblacion": " 49 209"
-        },
-        {
-            "Canton": "Ulloa            ",
-            "Poblacion": " 29 266"
-        },
-        {
-            "Canton": "Vara Blanca       ",
-            "Poblacion": "  700"
-        },
-        {
-            "Canton": "Barva",
-            "Poblacion": " 40 660"
-        },
-        {
-            "Canton": "Barva            ",
-            "Poblacion": " 4 997"
-        },
-        {
-            "Canton": "San Pedro         ",
-            "Poblacion": " 9 932"
-        },
-        {
-            "Canton": "San Pablo         ",
-            "Poblacion": " 8 319"
-        },
-        {
-            "Canton": "San Roque         ",
-            "Poblacion": " 4 622"
-        },
-        {
-            "Canton": "Santa Lucía       ",
-            "Poblacion": " 7 413"
-        },
-        {
-            "Canton": "San José de la Montaña",
-            "Poblacion": " 5 377"
-        },
-        {
-            "Canton": "Santo Domingo",
-            "Poblacion": " 40 072"
-        },
-        {
-            "Canton": "Santo Domingo     ",
-            "Poblacion": " 4 730"
-        },
-        {
-            "Canton": "San Vicente       ",
-            "Poblacion": " 6 427"
-        },
-        {
-            "Canton": "San Miguel        ",
-            "Poblacion": " 6 363"
-        },
-        {
-            "Canton": "Paracito          ",
-            "Poblacion": " 2 231"
-        },
-        {
-            "Canton": "Santo Tomás       ",
-            "Poblacion": " 6 267"
-        },
-        {
-            "Canton": "Santa Rosa        ",
-            "Poblacion": " 7 269"
-        },
-        {
-            "Canton": "Tures            ",
-            "Poblacion": " 3 452"
-        },
-        {
-            "Canton": "Pará            ",
-            "Poblacion": " 3 333"
-        },
-        {
-            "Canton": "Santa Bárbara",
-            "Poblacion": " 36 243"
-        },
-        {
-            "Canton": "Santa Bárbara     ",
-            "Poblacion": " 5 944"
-        },
-        {
-            "Canton": "San Pedro         ",
-            "Poblacion": " 5 582"
-        },
-        {
-            "Canton": "San Juan          ",
-            "Poblacion": " 7 662"
-        },
-        {
-            "Canton": "Jesús            ",
-            "Poblacion": " 9 603"
-        },
-        {
-            "Canton": "Santo Domingo",
-            "Poblacion": " 2 879"
-        },
-        {
-            "Canton": "Purabá            ",
-            "Poblacion": " 4 573"
-        },
-        {
-            "Canton": "San Rafael",
-            "Poblacion": " 45 965"
-        },
-        {
-            "Canton": "San Rafael        ",
-            "Poblacion": " 9 668"
-        },
-        {
-            "Canton": "San Josecito      ",
-            "Poblacion": " 11 579"
-        },
-        {
-            "Canton": "Santiago          ",
-            "Poblacion": " 8 409"
-        },
-        {
-            "Canton": "Ángeles           ",
-            "Poblacion": " 10 232"
-        },
-        {
-            "Canton": "Concepción        ",
-            "Poblacion": " 6 077"
-        },
-        {
-            "Canton": "San Isidro",
-            "Poblacion": " 20 633"
-        },
-        {
-            "Canton": "San Isidro        ",
-            "Poblacion": " 6 113"
-        },
-        {
-            "Canton": "San José          ",
-            "Poblacion": " 7 447"
-        },
-        {
-            "Canton": "Concepción        ",
-            "Poblacion": " 2 635"
-        },
-        {
-            "Canton": "San Francisco     ",
-            "Poblacion": " 4 438"
-        },
-        {
-            "Canton": "Belén",
-            "Poblacion": " 21 633"
-        },
-        {
-            "Canton": "San Antonio       ",
-            "Poblacion": " 9 942"
-        },
-        {
-            "Canton": "La Ribera         ",
-            "Poblacion": " 6 040"
-        },
-        {
-            "Canton": "La Asunción       ",
-            "Poblacion": " 5 651"
-        },
-        {
-            "Canton": "Flores",
-            "Poblacion": " 20 037"
-        },
-        {
-            "Canton": "San Joaquín       ",
-            "Poblacion": " 7 173"
-        },
-        {
-            "Canton": "Barrantes         ",
-            "Poblacion": " 4 091"
-        },
-        {
-            "Canton": "Llorente          ",
-            "Poblacion": " 8 773"
-        },
-        {
-            "Canton": "San Pablo",
-            "Poblacion": " 27 671"
-        },
-        {
-            "Canton": "San Pablo         ",
-            "Poblacion": " 19 412"
-        },
-        {
-            "Canton": "Rincón Sabanilla",
-            "Poblacion": " 8 259"
+            "Canton": "Garita",
+            "Poblacion": "7277"
         },
         {
             "Canton": "Sarapiquí",
-            "Poblacion": " 57 147"
+            "Poblacion": "2842"
         },
         {
-            "Canton": "Puerto Viejo      ",
-            "Poblacion": " 20 184"
+            "Canton": "SanRamón",
+            "Poblacion": "80566"
         },
         {
-            "Canton": "La Virgen         ",
-            "Poblacion": " 10 521"
+            "Canton": "Santiago",
+            "Poblacion": "4535"
         },
         {
-            "Canton": "Las Horquetas     ",
-            "Poblacion": " 24 331"
+            "Canton": "SanJuan",
+            "Poblacion": "11695"
         },
         {
-            "Canton": "Llanuras del Gaspar",
-            "Poblacion": " 1 160"
+            "Canton": "PiedadesNorte",
+            "Poblacion": "8147"
         },
         {
-            "Canton": "Cureña            ",
-            "Poblacion": "  951"
+            "Canton": "PiedadesSur",
+            "Poblacion": "3738"
+        },
+        {
+            "Canton": "SanRafael",
+            "Poblacion": "9321"
+        },
+        {
+            "Canton": "SanIsidro",
+            "Poblacion": "4478"
+        },
+        {
+            "Canton": "Ángeles",
+            "Poblacion": "8500"
+        },
+        {
+            "Canton": "Alfaro",
+            "Poblacion": "7137"
+        },
+        {
+            "Canton": "Volio",
+            "Poblacion": "2270"
+        },
+        {
+            "Canton": "Concepción",
+            "Poblacion": "2348"
+        },
+        {
+            "Canton": "Zapotal",
+            "Poblacion": "391"
+        },
+        {
+            "Canton": "PeñasBlancas",
+            "Poblacion": "9289"
+        },
+        {
+            "Canton": "Grecia",
+            "Poblacion": "76898"
+        },
+        {
+            "Canton": "SanIsidro",
+            "Poblacion": "5949"
+        },
+        {
+            "Canton": "SanRoque",
+            "Poblacion": "11132"
+        },
+        {
+            "Canton": "Tacares",
+            "Poblacion": "7963"
+        },
+        {
+            "Canton": "RíoCuarto",
+            "Poblacion": "11074"
+        },
+        {
+            "Canton": "PuentedePiedra",
+            "Poblacion": "10556"
+        },
+        {
+            "Canton": "Bolívar",
+            "Poblacion": "7265"
+        },
+        {
+            "Canton": "SanMateo",
+            "Poblacion": "6136"
+        },
+        {
+            "Canton": "Desmonte",
+            "Poblacion": "1047"
+        },
+        {
+            "Canton": "JesúsMaría",
+            "Poblacion": "2397"
+        },
+        {
+            "Canton": "Atenas",
+            "Poblacion": "25460"
+        },
+        {
+            "Canton": "Jesús",
+            "Poblacion": "3631"
+        },
+        {
+            "Canton": "Mercedes",
+            "Poblacion": "3127"
+        },
+        {
+            "Canton": "SanIsidro",
+            "Poblacion": "2813"
+        },
+        {
+            "Canton": "Concepción",
+            "Poblacion": "3473"
+        },
+        {
+            "Canton": "SantaEulalia",
+            "Poblacion": "2082"
+        },
+        {
+            "Canton": "Escobal",
+            "Poblacion": "848"
+        },
+        {
+            "Canton": "Naranjo",
+            "Poblacion": "42713"
+        },
+        {
+            "Canton": "SanMiguel",
+            "Poblacion": "4657"
+        },
+        {
+            "Canton": "SanJosé",
+            "Poblacion": "3162"
+        },
+        {
+            "Canton": "CirríSur",
+            "Poblacion": "4552"
+        },
+        {
+            "Canton": "SanJerónimo",
+            "Poblacion": "3264"
+        },
+        {
+            "Canton": "SanJuan",
+            "Poblacion": "3114"
+        },
+        {
+            "Canton": "ElRosario",
+            "Poblacion": "3757"
+        },
+        {
+            "Canton": "Palmitos",
+            "Poblacion": "4271"
+        },
+        {
+            "Canton": "Palmares",
+            "Poblacion": "34716"
+        },
+        {
+            "Canton": "Zaragoza",
+            "Poblacion": "8219"
+        },
+        {
+            "Canton": "BuenosAires",
+            "Poblacion": "7493"
+        },
+        {
+            "Canton": "Santiago",
+            "Poblacion": "2737"
+        },
+        {
+            "Canton": "Candelaria",
+            "Poblacion": "1961"
+        },
+        {
+            "Canton": "Esquipulas",
+            "Poblacion": "6588"
+        },
+        {
+            "Canton": "LaGranja",
+            "Poblacion": "4119"
+        },
+        {
+            "Canton": "Poás",
+            "Poblacion": "29199"
+        },
+        {
+            "Canton": "SanPedro",
+            "Poblacion": "7554"
+        },
+        {
+            "Canton": "SanJuan",
+            "Poblacion": "4638"
+        },
+        {
+            "Canton": "SanRafael",
+            "Poblacion": "5436"
+        },
+        {
+            "Canton": "Carrillos",
+            "Poblacion": "9228"
+        },
+        {
+            "Canton": "SabanaRedonda",
+            "Poblacion": "2343"
+        },
+        {
+            "Canton": "Orotina",
+            "Poblacion": "20341"
+        },
+        {
+            "Canton": "ElMastate",
+            "Poblacion": "1821"
+        },
+        {
+            "Canton": "HaciendaVieja",
+            "Poblacion": "1022"
+        },
+        {
+            "Canton": "Coyolar",
+            "Poblacion": "5912"
+        },
+        {
+            "Canton": "LaCeiba",
+            "Poblacion": "1922"
+        },
+        {
+            "Canton": "SanCarlos",
+            "Poblacion": "163745"
+        },
+        {
+            "Canton": "Quesada",
+            "Poblacion": "42060"
+        },
+        {
+            "Canton": "Florencia",
+            "Poblacion": "15149"
+        },
+        {
+            "Canton": "Buenavista",
+            "Poblacion": "325"
+        },
+        {
+            "Canton": "AguasZarcas",
+            "Poblacion": "20239"
+        },
+        {
+            "Canton": "Venecia",
+            "Poblacion": "9638"
+        },
+        {
+            "Canton": "Pital",
+            "Poblacion": "17318"
+        },
+        {
+            "Canton": "LaFortuna",
+            "Poblacion": "15383"
+        },
+        {
+            "Canton": "LaTigra",
+            "Poblacion": "6374"
+        },
+        {
+            "Canton": "LaPalmera",
+            "Poblacion": "6321"
+        },
+        {
+            "Canton": "Venado",
+            "Poblacion": "1754"
+        },
+        {
+            "Canton": "Cutris",
+            "Poblacion": "10334"
+        },
+        {
+            "Canton": "Monterrey",
+            "Poblacion": "3455"
+        },
+        {
+            "Canton": "Pocosol",
+            "Poblacion": "15395"
+        },
+        {
+            "Canton": "Zarcero",
+            "Poblacion": "12205"
+        },
+        {
+            "Canton": "Laguna",
+            "Poblacion": "1674"
+        },
+        {
+            "Canton": "Tapesco",
+            "Poblacion": "1305"
+        },
+        {
+            "Canton": "Guadalupe",
+            "Poblacion": "1148"
+        },
+        {
+            "Canton": "Palmira",
+            "Poblacion": "1334"
+        },
+        {
+            "Canton": "Zapote",
+            "Poblacion": "739"
+        },
+        {
+            "Canton": "Brisas",
+            "Poblacion": "2001"
+        },
+        {
+            "Canton": "ValverdeVega",
+            "Poblacion": "18085"
+        },
+        {
+            "Canton": "SarchíNorte",
+            "Poblacion": "7140"
+        },
+        {
+            "Canton": "SarchíSur",
+            "Poblacion": "5143"
+        },
+        {
+            "Canton": "ToroAmarillo",
+            "Poblacion": "273"
+        },
+        {
+            "Canton": "SanPedro",
+            "Poblacion": "3408"
+        },
+        {
+            "Canton": "Rodríguez",
+            "Poblacion": "2121"
+        },
+        {
+            "Canton": "Upala",
+            "Poblacion": "43953"
+        },
+        {
+            "Canton": "AguasClaras",
+            "Poblacion": "4939"
+        },
+        {
+            "Canton": "SanJoséoPizote",
+            "Poblacion": "7352"
+        },
+        {
+            "Canton": "Bijagua",
+            "Poblacion": "4538"
+        },
+        {
+            "Canton": "Delicias",
+            "Poblacion": "4483"
+        },
+        {
+            "Canton": "DosRíos",
+            "Poblacion": "3194"
+        },
+        {
+            "Canton": "Yolillal",
+            "Poblacion": "3308"
+        },
+        {
+            "Canton": "LosChiles",
+            "Poblacion": "23735"
+        },
+        {
+            "Canton": "CañoNegro",
+            "Poblacion": "1808"
+        },
+        {
+            "Canton": "ElAmparo",
+            "Poblacion": "5992"
+        },
+        {
+            "Canton": "SanJorge",
+            "Poblacion": "2673"
+        },
+        {
+            "Canton": "Guatuso",
+            "Poblacion": "15508"
+        },
+        {
+            "Canton": "SanRafael",
+            "Poblacion": "7941"
+        },
+        {
+            "Canton": "Buenavista",
+            "Poblacion": "1573"
+        },
+        {
+            "Canton": "Cote",
+            "Poblacion": "867"
+        },
+        {
+            "Canton": "Katira",
+            "Poblacion": "5127"
+        },
+        {
+            "Canton": "Cartago",
+            "Poblacion": "490903"
+        },
+        {
+            "Canton": "Cartago",
+            "Poblacion": "147898"
+        },
+        {
+            "Canton": "Oriental",
+            "Poblacion": "12228"
+        },
+        {
+            "Canton": "Occidental",
+            "Poblacion": "9901"
+        },
+        {
+            "Canton": "Carmen",
+            "Poblacion": "17425"
+        },
+        {
+            "Canton": "SanNicolás",
+            "Poblacion": "25948"
+        },
+        {
+            "Canton": "AguacalienteoSanFrancisco",
+            "Poblacion": "31789"
+        },
+        {
+            "Canton": "GuadalupeoArenilla",
+            "Poblacion": "14618"
+        },
+        {
+            "Canton": "Corralillo",
+            "Poblacion": "10647"
+        },
+        {
+            "Canton": "TierraBlanca",
+            "Poblacion": "5103"
+        },
+        {
+            "Canton": "DulceNombre",
+            "Poblacion": "10548"
+        },
+        {
+            "Canton": "LlanoGrande",
+            "Poblacion": "4342"
+        },
+        {
+            "Canton": "Quebradilla",
+            "Poblacion": "5349"
+        },
+        {
+            "Canton": "Paraíso",
+            "Poblacion": "57743"
+        },
+        {
+            "Canton": "Santiago",
+            "Poblacion": "5534"
+        },
+        {
+            "Canton": "Orosi",
+            "Poblacion": "9084"
+        },
+        {
+            "Canton": "Cachí",
+            "Poblacion": "5438"
+        },
+        {
+            "Canton": "LlanosdeSantaLucía",
+            "Poblacion": "17086"
+        },
+        {
+            "Canton": "LaUnión",
+            "Poblacion": "99399"
+        },
+        {
+            "Canton": "TresRíos",
+            "Poblacion": "9331"
+        },
+        {
+            "Canton": "SanDiego",
+            "Poblacion": "21620"
+        },
+        {
+            "Canton": "SanJuan",
+            "Poblacion": "13729"
+        },
+        {
+            "Canton": "SanRafael",
+            "Poblacion": "14247"
+        },
+        {
+            "Canton": "Concepción",
+            "Poblacion": "16515"
+        },
+        {
+            "Canton": "DulceNombre",
+            "Poblacion": "7893"
+        },
+        {
+            "Canton": "SanRamón",
+            "Poblacion": "4054"
+        },
+        {
+            "Canton": "RíoAzul",
+            "Poblacion": "12010"
+        },
+        {
+            "Canton": "Jiménez",
+            "Poblacion": "14669"
+        },
+        {
+            "Canton": "JuanViñas",
+            "Poblacion": "6552"
+        },
+        {
+            "Canton": "Tucurrique",
+            "Poblacion": "4872"
+        },
+        {
+            "Canton": "Pejibaye",
+            "Poblacion": "3245"
+        },
+        {
+            "Canton": "Turrialba",
+            "Poblacion": "69616"
+        },
+        {
+            "Canton": "LaSuiza",
+            "Poblacion": "7590"
+        },
+        {
+            "Canton": "Peralta",
+            "Poblacion": "511"
+        },
+        {
+            "Canton": "SantaCruz",
+            "Poblacion": "3208"
+        },
+        {
+            "Canton": "SantaTeresita",
+            "Poblacion": "4744"
+        },
+        {
+            "Canton": "Pavones",
+            "Poblacion": "4331"
+        },
+        {
+            "Canton": "Tuis",
+            "Poblacion": "2837"
+        },
+        {
+            "Canton": "Tayutic",
+            "Poblacion": "2374"
+        },
+        {
+            "Canton": "SantaRosa",
+            "Poblacion": "5232"
+        },
+        {
+            "Canton": "TresEquis",
+            "Poblacion": "1808"
+        },
+        {
+            "Canton": "LaIsabel",
+            "Poblacion": "6116"
+        },
+        {
+            "Canton": "Chirripó",
+            "Poblacion": "4185"
+        },
+        {
+            "Canton": "Alvarado",
+            "Poblacion": "14312"
+        },
+        {
+            "Canton": "Pacayas",
+            "Poblacion": "5628"
+        },
+        {
+            "Canton": "Cervantes",
+            "Poblacion": "6230"
+        },
+        {
+            "Canton": "Capellades",
+            "Poblacion": "2454"
+        },
+        {
+            "Canton": "Oreamuno",
+            "Poblacion": "45473"
+        },
+        {
+            "Canton": "SanRafael",
+            "Poblacion": "27248"
+        },
+        {
+            "Canton": "Cot",
+            "Poblacion": "9630"
+        },
+        {
+            "Canton": "PotreroCerrado",
+            "Poblacion": "2281"
+        },
+        {
+            "Canton": "Cipreses",
+            "Poblacion": "3700"
+        },
+        {
+            "Canton": "SantaRosa",
+            "Poblacion": "2614"
+        },
+        {
+            "Canton": "ElGuarco",
+            "Poblacion": "41793"
+        },
+        {
+            "Canton": "ElTejar",
+            "Poblacion": "24984"
+        },
+        {
+            "Canton": "SanIsidro",
+            "Poblacion": "9828"
+        },
+        {
+            "Canton": "Tobosi",
+            "Poblacion": "6569"
+        },
+        {
+            "Canton": "PatiodeAgua",
+            "Poblacion": "412"
+        },
+        {
+            "Canton": "Heredia",
+            "Poblacion": "433677"
+        },
+        {
+            "Canton": "Heredia",
+            "Poblacion": "18697"
+        },
+        {
+            "Canton": "Mercedes",
+            "Poblacion": "25744"
+        },
+        {
+            "Canton": "SanFrancisco",
+            "Poblacion": "49209"
+        },
+        {
+            "Canton": "Ulloa",
+            "Poblacion": "29266"
+        },
+        {
+            "Canton": "VaraBlanca",
+            "Poblacion": "700"
+        },
+        {
+            "Canton": "Barva",
+            "Poblacion": "40660"
+        },
+        {
+            "Canton": "Barva",
+            "Poblacion": "4997"
+        },
+        {
+            "Canton": "SanPedro",
+            "Poblacion": "9932"
+        },
+        {
+            "Canton": "SanPablo",
+            "Poblacion": "8319"
+        },
+        {
+            "Canton": "SanRoque",
+            "Poblacion": "4622"
+        },
+        {
+            "Canton": "SantaLucía",
+            "Poblacion": "7413"
+        },
+        {
+            "Canton": "SanJosédelaMontaña",
+            "Poblacion": "5377"
+        },
+        {
+            "Canton": "SantoDomingo",
+            "Poblacion": "40072"
+        },
+        {
+            "Canton": "SanVicente",
+            "Poblacion": "6427"
+        },
+        {
+            "Canton": "SanMiguel",
+            "Poblacion": "6363"
+        },
+        {
+            "Canton": "Paracito",
+            "Poblacion": "2231"
+        },
+        {
+            "Canton": "SantoTomás",
+            "Poblacion": "6267"
+        },
+        {
+            "Canton": "SantaRosa",
+            "Poblacion": "7269"
+        },
+        {
+            "Canton": "Tures",
+            "Poblacion": "3452"
+        },
+        {
+            "Canton": "Pará",
+            "Poblacion": "3333"
+        },
+        {
+            "Canton": "SantaBárbara",
+            "Poblacion": "36243"
+        },
+        {
+            "Canton": "SanPedro",
+            "Poblacion": "5582"
+        },
+        {
+            "Canton": "SanJuan",
+            "Poblacion": "7662"
+        },
+        {
+            "Canton": "Jesús",
+            "Poblacion": "9603"
+        },
+        {
+            "Canton": "SantoDomingo",
+            "Poblacion": "2879"
+        },
+        {
+            "Canton": "Purabá",
+            "Poblacion": "4573"
+        },
+        {
+            "Canton": "SanRafael",
+            "Poblacion": "45965"
+        },
+        {
+            "Canton": "SanJosecito",
+            "Poblacion": "11579"
+        },
+        {
+            "Canton": "Santiago",
+            "Poblacion": "8409"
+        },
+        {
+            "Canton": "Ángeles",
+            "Poblacion": "10232"
+        },
+        {
+            "Canton": "Concepción",
+            "Poblacion": "6077"
+        },
+        {
+            "Canton": "SanIsidro",
+            "Poblacion": "20633"
+        },
+        {
+            "Canton": "Belén",
+            "Poblacion": "21633"
+        },
+        {
+            "Canton": "Flores",
+            "Poblacion": "20037"
+        },
+        {
+            "Canton": "SanJoaquín",
+            "Poblacion": "7173"
+        },
+        {
+            "Canton": "Barrantes",
+            "Poblacion": "4091"
+        },
+        {
+            "Canton": "Llorente",
+            "Poblacion": "8773"
+        },
+        {
+            "Canton": "SanPablo",
+            "Poblacion": "27671"
+        },
+        {
+            "Canton": "SanPablo",
+            "Poblacion": "19412"
+        },
+        {
+            "Canton": "RincónSabanilla",
+            "Poblacion": "8259"
+        },
+        {
+            "Canton": "Sarapiquí",
+            "Poblacion": "57147"
+        },
+        {
+            "Canton": "PuertoViejo",
+            "Poblacion": "20184"
+        },
+        {
+            "Canton": "LaVirgen",
+            "Poblacion": "10521"
+        },
+        {
+            "Canton": "LasHorquetas",
+            "Poblacion": "24331"
+        },
+        {
+            "Canton": "LlanurasdelGaspar",
+            "Poblacion": "1160"
+        },
+        {
+            "Canton": "Cureña",
+            "Poblacion": "951"
         },
         {
             "Canton": "Guanacaste",
-            "Poblacion": " 326 953"
+            "Poblacion": "326953"
         },
         {
             "Canton": "Liberia",
-            "Poblacion": " 62 987"
+            "Poblacion": "62987"
         },
         {
-            "Canton": "Liberia           ",
-            "Poblacion": " 53 382"
+            "Canton": "CañasDulces",
+            "Poblacion": "3230"
         },
         {
-            "Canton": "Cañas Dulces      ",
-            "Poblacion": " 3 230"
+            "Canton": "Mayorga",
+            "Poblacion": "1599"
         },
         {
-            "Canton": "Mayorga           ",
-            "Poblacion": " 1 599"
+            "Canton": "Nacascolo",
+            "Poblacion": "2249"
         },
         {
-            "Canton": "Nacascolo         ",
-            "Poblacion": " 2 249"
-        },
-        {
-            "Canton": "Curubandé         ",
-            "Poblacion": " 2 527"
+            "Canton": "Curubandé",
+            "Poblacion": "2527"
         },
         {
             "Canton": "Nicoya",
-            "Poblacion": " 50 825"
+            "Poblacion": "50825"
         },
         {
-            "Canton": "Nicoya            ",
-            "Poblacion": " 24 833"
+            "Canton": "Mansión",
+            "Poblacion": "5717"
         },
         {
-            "Canton": "Mansión           ",
-            "Poblacion": " 5 717"
+            "Canton": "SanAntonio",
+            "Poblacion": "6642"
         },
         {
-            "Canton": "San Antonio       ",
-            "Poblacion": " 6 642"
+            "Canton": "QuebradaHonda",
+            "Poblacion": "2523"
         },
         {
-            "Canton": "Quebrada Honda    ",
-            "Poblacion": " 2 523"
+            "Canton": "Sámara",
+            "Poblacion": "3512"
         },
         {
-            "Canton": "Sámara            ",
-            "Poblacion": " 3 512"
+            "Canton": "Nosara",
+            "Poblacion": "4912"
         },
         {
-            "Canton": "Nosara            ",
-            "Poblacion": " 4 912"
+            "Canton": "BeléndeNosarita",
+            "Poblacion": "2686"
         },
         {
-            "Canton": "Belén de Nosarita ",
-            "Poblacion": " 2 686"
+            "Canton": "SantaCruz",
+            "Poblacion": "55104"
         },
         {
-            "Canton": "Santa Cruz",
-            "Poblacion": " 55 104"
+            "Canton": "Bolsón",
+            "Poblacion": "1627"
         },
         {
-            "Canton": "Santa Cruz        ",
-            "Poblacion": " 21 544"
+            "Canton": "VeintisietedeAbril",
+            "Poblacion": "7048"
         },
         {
-            "Canton": "Bolsón            ",
-            "Poblacion": " 1 627"
+            "Canton": "Tempate",
+            "Poblacion": "5630"
         },
         {
-            "Canton": "Veintisiete de Abril",
-            "Poblacion": " 7 048"
+            "Canton": "Cartagena",
+            "Poblacion": "3824"
         },
         {
-            "Canton": "Tempate           ",
-            "Poblacion": " 5 630"
+            "Canton": "Cuajiniquil",
+            "Poblacion": "1789"
         },
         {
-            "Canton": "Cartagena         ",
-            "Poblacion": " 3 824"
+            "Canton": "Diriá",
+            "Poblacion": "3905"
         },
         {
-            "Canton": "Cuajiniquil       ",
-            "Poblacion": " 1 789"
+            "Canton": "CaboVelas",
+            "Poblacion": "3362"
         },
         {
-            "Canton": "Diriá            ",
-            "Poblacion": " 3 905"
-        },
-        {
-            "Canton": "Cabo Velas        ",
-            "Poblacion": " 3 362"
-        },
-        {
-            "Canton": "Tamarindo         ",
-            "Poblacion": " 6 375"
+            "Canton": "Tamarindo",
+            "Poblacion": "6375"
         },
         {
             "Canton": "Bagaces",
-            "Poblacion": " 19 536"
+            "Poblacion": "19536"
         },
         {
-            "Canton": "Bagaces           ",
-            "Poblacion": " 12 367"
+            "Canton": "LaFortuna",
+            "Poblacion": "2756"
         },
         {
-            "Canton": "La Fortuna        ",
-            "Poblacion": " 2 756"
+            "Canton": "Mogote",
+            "Poblacion": "3398"
         },
         {
-            "Canton": "Mogote            ",
-            "Poblacion": " 3 398"
-        },
-        {
-            "Canton": "Río Naranjo       ",
-            "Poblacion": " 1 015"
+            "Canton": "RíoNaranjo",
+            "Poblacion": "1015"
         },
         {
             "Canton": "Carrillo",
-            "Poblacion": " 37 122"
+            "Poblacion": "37122"
         },
         {
-            "Canton": "Filadelfia        ",
-            "Poblacion": " 7 953"
+            "Canton": "Filadelfia",
+            "Poblacion": "7953"
         },
         {
-            "Canton": "Palmira           ",
-            "Poblacion": " 5 416"
+            "Canton": "Palmira",
+            "Poblacion": "5416"
         },
         {
-            "Canton": "Sardinal          ",
-            "Poblacion": " 14 912"
+            "Canton": "Sardinal",
+            "Poblacion": "14912"
         },
         {
-            "Canton": "Belén            ",
-            "Poblacion": " 8 841"
+            "Canton": "Belén",
+            "Poblacion": "8841"
         },
         {
             "Canton": "Cañas",
-            "Poblacion": " 26 201"
+            "Poblacion": "26201"
         },
         {
-            "Canton": "Cañas            ",
-            "Poblacion": " 20 816"
+            "Canton": "Palmira",
+            "Poblacion": "988"
         },
         {
-            "Canton": "Palmira           ",
-            "Poblacion": "  988"
+            "Canton": "SanMiguel",
+            "Poblacion": "1644"
         },
         {
-            "Canton": "San Miguel        ",
-            "Poblacion": " 1 644"
+            "Canton": "Bebedero",
+            "Poblacion": "2084"
         },
         {
-            "Canton": "Bebedero          ",
-            "Poblacion": " 2 084"
-        },
-        {
-            "Canton": "Porozal           ",
-            "Poblacion": "  669"
+            "Canton": "Porozal",
+            "Poblacion": "669"
         },
         {
             "Canton": "Abangares",
-            "Poblacion": " 18 039"
+            "Poblacion": "18039"
         },
         {
-            "Canton": "Las Juntas        ",
-            "Poblacion": " 9 482"
+            "Canton": "LasJuntas",
+            "Poblacion": "9482"
         },
         {
-            "Canton": "Sierra            ",
-            "Poblacion": " 2 351"
+            "Canton": "Sierra",
+            "Poblacion": "2351"
         },
         {
-            "Canton": "San Juan          ",
-            "Poblacion": " 1 585"
+            "Canton": "SanJuan",
+            "Poblacion": "1585"
         },
         {
-            "Canton": "Colorado          ",
-            "Poblacion": " 4 621"
+            "Canton": "Colorado",
+            "Poblacion": "4621"
         },
         {
             "Canton": "Tilarán",
-            "Poblacion": " 19 640"
+            "Poblacion": "19640"
         },
         {
-            "Canton": "Tilarán           ",
-            "Poblacion": " 8 677"
+            "Canton": "Tilarán",
+            "Poblacion": "8677"
         },
         {
-            "Canton": "Quebrada Grande   ",
-            "Poblacion": " 2 700"
+            "Canton": "QuebradaGrande",
+            "Poblacion": "2700"
         },
         {
-            "Canton": "Tronadora         ",
-            "Poblacion": " 1 795"
+            "Canton": "Tronadora",
+            "Poblacion": "1795"
         },
         {
-            "Canton": "Santa Rosa        ",
-            "Poblacion": " 1 945"
+            "Canton": "SantaRosa",
+            "Poblacion": "1945"
         },
         {
-            "Canton": "Líbano            ",
-            "Poblacion": "  865"
+            "Canton": "Líbano",
+            "Poblacion": "865"
         },
         {
-            "Canton": "Tierras Morenas   ",
-            "Poblacion": " 1 358"
+            "Canton": "TierrasMorenas",
+            "Poblacion": "1358"
         },
         {
-            "Canton": "Arenal            ",
-            "Poblacion": " 2 300"
+            "Canton": "Arenal",
+            "Poblacion": "2300"
         },
         {
             "Canton": "Nandayure",
-            "Poblacion": " 11 121"
+            "Poblacion": "11121"
         },
         {
-            "Canton": "Carmona           ",
-            "Poblacion": " 2 486"
+            "Canton": "Carmona",
+            "Poblacion": "2486"
         },
         {
-            "Canton": "Santa Rita        ",
-            "Poblacion": " 1 446"
+            "Canton": "SantaRita",
+            "Poblacion": "1446"
         },
         {
-            "Canton": "Zapotal           ",
-            "Poblacion": " 1 215"
+            "Canton": "Zapotal",
+            "Poblacion": "1215"
         },
         {
-            "Canton": "San Pablo         ",
-            "Poblacion": " 2 207"
+            "Canton": "SanPablo",
+            "Poblacion": "2207"
         },
         {
-            "Canton": "Porvenir          ",
-            "Poblacion": "  741"
+            "Canton": "Porvenir",
+            "Poblacion": "741"
         },
         {
-            "Canton": "Bejuco            ",
-            "Poblacion": " 3 026"
+            "Canton": "Bejuco",
+            "Poblacion": "3026"
         },
         {
-            "Canton": "La Cruz",
-            "Poblacion": " 19 181"
+            "Canton": "LaCruz",
+            "Poblacion": "19181"
         },
         {
-            "Canton": "La Cruz           ",
-            "Poblacion": " 9 195"
+            "Canton": "LaCruz",
+            "Poblacion": "9195"
         },
         {
-            "Canton": "Santa Cecilia     ",
-            "Poblacion": " 6 258"
+            "Canton": "SantaCecilia",
+            "Poblacion": "6258"
         },
         {
-            "Canton": "La Garita         ",
-            "Poblacion": " 1 688"
+            "Canton": "LaGarita",
+            "Poblacion": "1688"
         },
         {
-            "Canton": "Santa Elena       ",
-            "Poblacion": " 2 040"
+            "Canton": "SantaElena",
+            "Poblacion": "2040"
         },
         {
             "Canton": "Hojancha",
-            "Poblacion": " 7 197"
+            "Poblacion": "7197"
         },
         {
-            "Canton": "Hojancha          ",
-            "Poblacion": " 4 245"
+            "Canton": "Hojancha",
+            "Poblacion": "4245"
         },
         {
-            "Canton": "Monte Romo",
-            "Poblacion": "  671"
+            "Canton": "MonteRomo",
+            "Poblacion": "671"
         },
         {
-            "Canton": "Puerto Carrillo   ",
-            "Poblacion": " 1 574"
+            "Canton": "PuertoCarrillo",
+            "Poblacion": "1574"
         },
         {
-            "Canton": "Huacas            ",
-            "Poblacion": "  707"
-        },
-        {
-            "Canton": "Puntarenas",
-            "Poblacion": " 410 929"
+            "Canton": "Huacas",
+            "Poblacion": "707"
         },
         {
             "Canton": "Puntarenas",
-            "Poblacion": " 115 019"
+            "Poblacion": "410929"
         },
         {
-            "Canton": "Puntarenas        ",
-            "Poblacion": " 8 335"
+            "Canton": "Puntarenas",
+            "Poblacion": "115019"
         },
         {
-            "Canton": "Pitahaya          ",
-            "Poblacion": " 2 211"
+            "Canton": "Puntarenas",
+            "Poblacion": "8335"
         },
         {
-            "Canton": "Chomes            ",
-            "Poblacion": " 5 522"
+            "Canton": "Pitahaya",
+            "Poblacion": "2211"
         },
         {
-            "Canton": "Lepanto           ",
-            "Poblacion": " 9 502"
+            "Canton": "Chomes",
+            "Poblacion": "5522"
         },
         {
-            "Canton": "Paquera           ",
-            "Poblacion": " 6 686"
+            "Canton": "Lepanto",
+            "Poblacion": "9502"
         },
         {
-            "Canton": "Manzanillo        ",
-            "Poblacion": " 2 811"
+            "Canton": "Paquera",
+            "Poblacion": "6686"
         },
         {
-            "Canton": "Guacimal          ",
-            "Poblacion": "  923"
+            "Canton": "Manzanillo",
+            "Poblacion": "2811"
         },
         {
-            "Canton": "Barranca          ",
-            "Poblacion": " 30 650"
+            "Canton": "Guacimal",
+            "Poblacion": "923"
         },
         {
-            "Canton": "Monte Verde       ",
-            "Poblacion": " 4 155"
+            "Canton": "Barranca",
+            "Poblacion": "30650"
         },
         {
-            "Canton": "Cóbano            ",
-            "Poblacion": " 7 494"
+            "Canton": "MonteVerde",
+            "Poblacion": "4155"
         },
         {
-            "Canton": "Chacarita         ",
-            "Poblacion": " 17 434"
+            "Canton": "Cóbano",
+            "Poblacion": "7494"
         },
         {
-            "Canton": "Chira        ",
-            "Poblacion": " 1 576"
+            "Canton": "Chacarita",
+            "Poblacion": "17434"
         },
         {
-            "Canton": "Acapulco          ",
-            "Poblacion": " 1 296"
+            "Canton": "Chira",
+            "Poblacion": "1576"
         },
         {
-            "Canton": "El Roble          ",
-            "Poblacion": " 15 759"
+            "Canton": "Acapulco",
+            "Poblacion": "1296"
         },
         {
-            "Canton": "Arancibia         ",
-            "Poblacion": "  665"
+            "Canton": "ElRoble",
+            "Poblacion": "15759"
+        },
+        {
+            "Canton": "Arancibia",
+            "Poblacion": "665"
         },
         {
             "Canton": "Esparza",
-            "Poblacion": " 28 644"
+            "Poblacion": "28644"
         },
         {
-            "Canton": "Espíritu Santo    ",
-            "Poblacion": " 15 686"
+            "Canton": "EspírituSanto",
+            "Poblacion": "15686"
         },
         {
-            "Canton": "San Juan Grande   ",
-            "Poblacion": " 6 171"
+            "Canton": "SanJuanGrande",
+            "Poblacion": "6171"
         },
         {
-            "Canton": "Macacona          ",
-            "Poblacion": " 4 742"
+            "Canton": "Macacona",
+            "Poblacion": "4742"
         },
         {
-            "Canton": "San Rafael        ",
-            "Poblacion": " 1 294"
+            "Canton": "SanRafael",
+            "Poblacion": "1294"
         },
         {
-            "Canton": "San Jerónimo      ",
-            "Poblacion": "  751"
+            "Canton": "SanJerónimo",
+            "Poblacion": "751"
         },
         {
-            "Canton": "Buenos Aires",
-            "Poblacion": " 45 244"
+            "Canton": "BuenosAires",
+            "Poblacion": "45244"
         },
         {
-            "Canton": "Buenos Aires      ",
-            "Poblacion": " 21 063"
+            "Canton": "BuenosAires",
+            "Poblacion": "21063"
         },
         {
-            "Canton": "Volcán            ",
-            "Poblacion": " 3 815"
+            "Canton": "Volcán",
+            "Poblacion": "3815"
         },
         {
-            "Canton": "Potrero Grande    ",
-            "Poblacion": " 5 956"
+            "Canton": "PotreroGrande",
+            "Poblacion": "5956"
         },
         {
-            "Canton": "Boruca            ",
-            "Poblacion": " 3 074"
+            "Canton": "Boruca",
+            "Poblacion": "3074"
         },
         {
-            "Canton": "Pilas            ",
-            "Poblacion": " 1 659"
+            "Canton": "Pilas",
+            "Poblacion": "1659"
         },
         {
-            "Canton": "Colinas      ",
-            "Poblacion": " 1 371"
+            "Canton": "Colinas",
+            "Poblacion": "1371"
         },
         {
-            "Canton": "Chánguena         ",
-            "Poblacion": " 2 631"
+            "Canton": "Chánguena",
+            "Poblacion": "2631"
         },
         {
-            "Canton": "Biolley           ",
-            "Poblacion": " 2 455"
+            "Canton": "Biolley",
+            "Poblacion": "2455"
         },
         {
-            "Canton": "Brunka            ",
-            "Poblacion": " 3 220"
+            "Canton": "Brunka",
+            "Poblacion": "3220"
         },
         {
-            "Canton": "Montes de Oro",
-            "Poblacion": " 12 950"
+            "Canton": "MontesdeOro",
+            "Poblacion": "12950"
         },
         {
-            "Canton": "Miramar           ",
-            "Poblacion": " 8 298"
+            "Canton": "Miramar",
+            "Poblacion": "8298"
         },
         {
-            "Canton": "La Unión          ",
-            "Poblacion": " 1 249"
+            "Canton": "LaUnión",
+            "Poblacion": "1249"
         },
         {
-            "Canton": "San Isidro        ",
-            "Poblacion": " 3 403"
+            "Canton": "SanIsidro",
+            "Poblacion": "3403"
         },
         {
             "Canton": "Osa",
-            "Poblacion": " 29 433"
+            "Poblacion": "29433"
         },
         {
-            "Canton": "Puerto Cortés     ",
-            "Poblacion": " 7 969"
+            "Canton": "PuertoCortés",
+            "Poblacion": "7969"
         },
         {
-            "Canton": "Palmar            ",
-            "Poblacion": " 9 815"
+            "Canton": "Palmar",
+            "Poblacion": "9815"
         },
         {
-            "Canton": "Sierpe            ",
-            "Poblacion": " 4 205"
+            "Canton": "Sierpe",
+            "Poblacion": "4205"
         },
         {
-            "Canton": "Bahía Ballena     ",
-            "Poblacion": " 3 306"
+            "Canton": "BahíaBallena",
+            "Poblacion": "3306"
         },
         {
-            "Canton": "Piedras Blancas   ",
-            "Poblacion": " 4 138"
+            "Canton": "PiedrasBlancas",
+            "Poblacion": "4138"
         },
         {
             "Canton": "Aguirre",
-            "Poblacion": " 26 861"
+            "Poblacion": "26861"
         },
         {
-            "Canton": "Quepos            ",
-            "Poblacion": " 19 858"
+            "Canton": "Quepos",
+            "Poblacion": "19858"
         },
         {
-            "Canton": "Savegre           ",
-            "Poblacion": " 3 326"
+            "Canton": "Savegre",
+            "Poblacion": "3326"
         },
         {
-            "Canton": "Naranjito         ",
-            "Poblacion": " 3 677"
+            "Canton": "Naranjito",
+            "Poblacion": "3677"
         },
         {
             "Canton": "Golfito",
-            "Poblacion": " 39 150"
+            "Poblacion": "39150"
         },
         {
-            "Canton": "Golfito           ",
-            "Poblacion": " 11 284"
+            "Canton": "PuertoJiménez",
+            "Poblacion": "8789"
         },
         {
-            "Canton": "Puerto Jiménez    ",
-            "Poblacion": " 8 789"
+            "Canton": "Guaycará",
+            "Poblacion": "12918"
         },
         {
-            "Canton": "Guaycará          ",
-            "Poblacion": " 12 918"
+            "Canton": "Pavón",
+            "Poblacion": "6159"
         },
         {
-            "Canton": "Pavón ",
-            "Poblacion": " 6 159"
+            "Canton": "CotoBrus",
+            "Poblacion": "38453"
         },
         {
-            "Canton": "Coto Brus",
-            "Poblacion": " 38 453"
+            "Canton": "SanVito",
+            "Poblacion": "14834"
         },
         {
-            "Canton": "San Vito          ",
-            "Poblacion": " 14 834"
+            "Canton": "Sabalito",
+            "Poblacion": "10984"
         },
         {
-            "Canton": "Sabalito          ",
-            "Poblacion": " 10 984"
+            "Canton": "Aguabuena",
+            "Poblacion": "6286"
         },
         {
-            "Canton": "Aguabuena         ",
-            "Poblacion": " 6 286"
+            "Canton": "Limoncito",
+            "Poblacion": "3591"
         },
         {
-            "Canton": "Limoncito         ",
-            "Poblacion": " 3 591"
-        },
-        {
-            "Canton": "Pittier           ",
-            "Poblacion": " 2 758"
+            "Canton": "Pittier",
+            "Poblacion": "2758"
         },
         {
             "Canton": "Parrita",
-            "Poblacion": " 16 115"
+            "Poblacion": "16115"
         },
         {
-            "Canton": "Parrita           ",
-            "Poblacion": " 16 115"
+            "Canton": "Parrita",
+            "Poblacion": "16115"
         },
         {
             "Canton": "Corredores",
-            "Poblacion": " 41 831"
+            "Poblacion": "41831"
         },
         {
-            "Canton": "Corredor          ",
-            "Poblacion": " 17 250"
+            "Canton": "Corredor",
+            "Poblacion": "17250"
         },
         {
-            "Canton": "La Cuesta         ",
-            "Poblacion": " 3 906"
+            "Canton": "LaCuesta",
+            "Poblacion": "3906"
         },
         {
-            "Canton": "Canoas            ",
-            "Poblacion": " 11 527"
+            "Canton": "Canoas",
+            "Poblacion": "11527"
         },
         {
-            "Canton": "Laurel            ",
-            "Poblacion": " 9 148"
+            "Canton": "Laurel",
+            "Poblacion": "9148"
         },
         {
             "Canton": "Garabito",
-            "Poblacion": " 17 229"
+            "Poblacion": "17229"
         },
         {
-            "Canton": "Jacó             ",
-            "Poblacion": " 11 685"
+            "Canton": "Jacó",
+            "Poblacion": "11685"
         },
         {
-            "Canton": "Tárcoles          ",
-            "Poblacion": " 5 544"
-        },
-        {
-            "Canton": "Limón",
-            "Poblacion": " 386 862"
+            "Canton": "Tárcoles",
+            "Poblacion": "5544"
         },
         {
             "Canton": "Limón",
-            "Poblacion": " 94 415"
+            "Poblacion": "386862"
         },
         {
             "Canton": "Limón",
-            "Poblacion": " 61 072"
+            "Poblacion": "94415"
         },
         {
-            "Canton": "Valle La Estrella ",
-            "Poblacion": " 17 908"
+            "Canton": "Limón",
+            "Poblacion": "61072"
         },
         {
-            "Canton": "Río Blanco        ",
-            "Poblacion": " 8 307"
+            "Canton": "ValleLaEstrella",
+            "Poblacion": "17908"
         },
         {
-            "Canton": "Matama            ",
-            "Poblacion": " 7 128"
+            "Canton": "RíoBlanco",
+            "Poblacion": "8307"
+        },
+        {
+            "Canton": "Matama",
+            "Poblacion": "7128"
         },
         {
             "Canton": "Pococí",
-            "Poblacion": " 125 962"
+            "Poblacion": "125962"
         },
         {
-            "Canton": "Guápiles          ",
-            "Poblacion": " 36 469"
+            "Canton": "Guápiles",
+            "Poblacion": "36469"
         },
         {
-            "Canton": "Jiménez           ",
-            "Poblacion": " 10 501"
+            "Canton": "Jiménez",
+            "Poblacion": "10501"
         },
         {
-            "Canton": "Rita             ",
-            "Poblacion": " 24 041"
+            "Canton": "Rita",
+            "Poblacion": "24041"
         },
         {
-            "Canton": "Roxana            ",
-            "Poblacion": " 16 790"
+            "Canton": "Roxana",
+            "Poblacion": "16790"
         },
         {
-            "Canton": "Cariari           ",
-            "Poblacion": " 34 176"
+            "Canton": "Cariari",
+            "Poblacion": "34176"
         },
         {
-            "Canton": "Colorado          ",
-            "Poblacion": " 3 985"
+            "Canton": "Colorado",
+            "Poblacion": "3985"
         },
         {
             "Canton": "Siquirres",
-            "Poblacion": " 56 786"
+            "Poblacion": "56786"
         },
         {
-            "Canton": "Siquirres         ",
-            "Poblacion": " 31 637"
+            "Canton": "Pacuarito",
+            "Poblacion": "8756"
         },
         {
-            "Canton": "Pacuarito         ",
-            "Poblacion": " 8 756"
+            "Canton": "Florida",
+            "Poblacion": "2184"
         },
         {
-            "Canton": "Florida           ",
-            "Poblacion": " 2 184"
+            "Canton": "Germania",
+            "Poblacion": "2471"
         },
         {
-            "Canton": "Germania          ",
-            "Poblacion": " 2 471"
+            "Canton": "ElCairo",
+            "Poblacion": "6082"
         },
         {
-            "Canton": "El Cairo          ",
-            "Poblacion": " 6 082"
-        },
-        {
-            "Canton": "La Alegría        ",
-            "Poblacion": " 5 656"
+            "Canton": "LaAlegría",
+            "Poblacion": "5656"
         },
         {
             "Canton": "Talamanca",
-            "Poblacion": " 30 712"
+            "Poblacion": "30712"
         },
         {
-            "Canton": "Bratsi            ",
-            "Poblacion": " 7 318"
+            "Canton": "Bratsi",
+            "Poblacion": "7318"
         },
         {
-            "Canton": "Sixaola           ",
-            "Poblacion": " 8 861"
+            "Canton": "Sixaola",
+            "Poblacion": "8861"
         },
         {
-            "Canton": "Cahuita           ",
-            "Poblacion": " 8 293"
+            "Canton": "Cahuita",
+            "Poblacion": "8293"
         },
         {
             "Canton": "Telire",
-            "Poblacion": " 6 240"
+            "Poblacion": "6240"
         },
         {
             "Canton": "Matina",
-            "Poblacion": " 37 721"
+            "Poblacion": "37721"
         },
         {
-            "Canton": "Matina            ",
-            "Poblacion": " 9 142"
+            "Canton": "Batán",
+            "Poblacion": "16532"
         },
         {
-            "Canton": "Batán            ",
-            "Poblacion": " 16 532"
-        },
-        {
-            "Canton": "Carrandi          ",
-            "Poblacion": " 12 047"
+            "Canton": "Carrandi",
+            "Poblacion": "12047"
         },
         {
             "Canton": "Guácimo",
-            "Poblacion": " 41 266"
+            "Poblacion": "41266"
         },
         {
-            "Canton": "Guácimo           ",
-            "Poblacion": " 18 326"
+            "Canton": "Mercedes",
+            "Poblacion": "1707"
         },
         {
-            "Canton": "Mercedes          ",
-            "Poblacion": " 1 707"
+            "Canton": "Pocora",
+            "Poblacion": "6432"
         },
         {
-            "Canton": "Pocora            ",
-            "Poblacion": " 6 432"
+            "Canton": "RíoJiménez",
+            "Poblacion": "8742"
         },
         {
-            "Canton": "Río Jiménez       ",
-            "Poblacion": " 8 742"
-        },
-        {
-            "Canton": "Duacarí           ",
-            "Poblacion": " 6 059"
+            "Canton": "Duacarí",
+            "Poblacion": "6059"
         }
-    ]
-}
+
+]
