@@ -1,5 +1,4 @@
-var data = [
-    
+[
     {
       "Canton": "Abangares",
       "Poblacion": "18039"
@@ -1969,8 +1968,3 @@ var data = [
       "Poblacion": "10232"
     }
   ]
-
-
-data.forEach((item) =>{
-    
-})

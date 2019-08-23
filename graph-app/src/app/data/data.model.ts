@@ -1,4 +1,4 @@
 export interface DataModel {
-    letter: string;
-    frequency: number;
+    Canton: string;
+    Poblacion: number;
   }

@@ -1,0 +1,22 @@
+[
+    {
+        "Canton": "Hola",
+        "Poblacion": 1230,
+        "Densidad": 0.9
+    },
+    {
+        "Canton": "San Jose",
+        "Poblacion": 3453,
+        "Densidad": 0.76
+    },
+    {
+        "Canton": "Cartago",
+        "Poblacion": 9876,
+        "Densidad": 0.23
+    },
+    {
+        "Canton": "ago",
+        "Poblacion": 1876,
+        "Densidad": 0.23
+    }
+]
