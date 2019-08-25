@@ -1,5 +1,4 @@
-# 
-Visualizacion de Informacion
+# Visualizacion de Informacion
 
 ## Proyecto Visualizacion de Poblaciones
 
