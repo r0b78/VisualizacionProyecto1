@@ -8,21 +8,18 @@ import * as d3 from 'd3';
   styleUrls: ['./bubble-chart.component.css']
 })
 export class BubbleChartComponent implements OnInit {
-  margin = {top: 40, right: 40, bottom: 30, left: 80};
+  margin = {top: 40, right: 150, bottom: 30, left: 80};
 
   @ViewChild('my_data',{static: false})
   private chartContainer: ElementRef;
-
+  private type = 'bubbles';
   @Input()
   data: DataModelPoblacion[];
   
   @HostListener('window:resize', ['$event'])
   onResize(event) {
-    d3.selectAll("svg").remove()
-
-    this.createChart();
+    this.changeChart(this.type);
   }
-
 
   constructor() { }
 
@@ -32,13 +29,43 @@ export class BubbleChartComponent implements OnInit {
     if (!this.data) { 
       return; 
     }
-    //this.createChart();
-    this.createColorChart();
+    this.createBubbleChart(this.type);
+     
+  }
+  public handleClickEstandar(event: Event): void {
+    this.type = 'bubbles'
+    this.changeChart(this.type);
+    
+  }
+  public handleClickRectagulo(event: Event): void {
+    this.type = 'rectangulo'
+    this.changeChart(this.type);
   }
 
-  private createChart(): void {
-    const element = this.chartContainer.nativeElement;
+  public handleClickBarras(event: Event): void {
+    this.type = 'barras'
+    this.changeChart(this.type);
+  }
 
+  public handleClickGlifo(event: Event): void {
+    this.type = 'glifo'
+    this.changeChart(this.type);
+  }
+
+  private changeChart(type:string) :void {
+    d3.select("svg").remove();
+    this.type = type;
+    if(type == 'barras') {
+      this.createBarChart();
+    }else {
+     
+      this.createBubbleChart(type);  
+    }
+    
+  }
+  private createBubbleChart(type:string): void {
+    const element = this.chartContainer.nativeElement;
+   
     const data = this.data
 
     const svg = d3.select("#my_data")
@@ -53,7 +80,7 @@ export class BubbleChartComponent implements OnInit {
     let height = element.offsetHeight - this.margin.top - this.margin.bottom;
 
     const x = d3.scaleLinear()
-            .domain([0, d3.max(data, dataPoint => dataPoint.Poblacion)+400])
+            .domain([0, d3.max(data, dataPoint => dataPoint.Densidad)+10])
             .range([ 0, width ]);
     
     svg.append("g")
@@ -61,7 +88,7 @@ export class BubbleChartComponent implements OnInit {
       .call(d3.axisBottom(x));
 
     const y = d3.scaleLinear()
-            .domain([0, d3.max(data, dataPoint => dataPoint.Densidad)])
+            .domain([0, d3.max(data, dataPoint => dataPoint.Poblacion)])
             .range([ height, 0]);
     
     svg.append("g")
@@ -70,88 +97,8 @@ export class BubbleChartComponent implements OnInit {
     const z = d3.scaleLinear()
               .domain([0, d3.max(data, dataPoint => dataPoint.Poblacion)])
               .range([ 0, 40 ]);
-    
-    svg.append('g')
-    .selectAll("dot")
-    .data(data)
-    .enter()
-    .append("circle")
-      .attr("cx", function (d) { return x(d.Poblacion); } )
-      .attr("cy", function (d) { return y(d.Densidad); } )
-      .attr("r", function (d) { return z(d.Poblacion); } )
-      .style("fill", "#69b3a2")
-      .style("opacity", "0.7")
-      .attr("stroke", "black")
-  }
 
-  private createColorChart():void {
-    var margin = {top: 40, right: 150, bottom: 60, left: 30},
-    width = 500 - margin.left - margin.right,
-    height = 420 - margin.top - margin.bottom;
-
-// append the svg object to the body of the page
-var svg = d3.select("#my_data")
-  .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform",
-          "translate(" + margin.left + "," + margin.top + ")");
-
-//Read the data
-d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/4_ThreeNum.csv", function(data) {
-
-  // ---------------------------//
-  //       AXIS  AND SCALE      //
-  // ---------------------------//
-
-  // Add X axis
-  var x = d3.scaleLinear()
-    .domain([0, 45000])
-    .range([ 0, width ]);
-  svg.append("g")
-    .attr("transform", "translate(0," + height + ")")
-    .call(d3.axisBottom(x).ticks(3));
-
-  // Add X axis label:
-  svg.append("text")
-      .attr("text-anchor", "end")
-      .attr("x", width)
-      .attr("y", height+50 )
-      .text("Gdp per Capita");
-
-  // Add Y axis
-  var y = d3.scaleLinear()
-    .domain([35, 90])
-    .range([ height, 0]);
-  svg.append("g")
-    .call(d3.axisLeft(y));
-
-  // Add Y axis label:
-  svg.append("text")
-      .attr("text-anchor", "end")
-      .attr("x", 0)
-      .attr("y", -20 )
-      .text("Life expectancy")
-      .attr("text-anchor", "start")
-
-  // Add a scale for bubble size
-  var z = d3.scaleSqrt()
-    .domain([200000, 1310000000])
-    .range([ 2, 30]);
-
-  // Add a scale for bubble color
-  var myColor = d3.scaleOrdinal()
-    .domain(["Asia", "Europe", "Americas", "Africa", "Oceania"])
-    .range(d3.schemeSet1);
-
-
-  // ---------------------------//
-  //      TOOLTIP               //
-  // ---------------------------//
-
-  // -1- Create a tooltip div that is hidden by default:
-  var tooltip = d3.select("#my_dataviz")
+    var tooltip = d3.select("#my_data")
     .append("div")
       .style("opacity", 0)
       .attr("class", "tooltip")
@@ -159,34 +106,106 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
       .style("border-radius", "5px")
       .style("padding", "10px")
       .style("color", "white")
+    var showTooltip = function(d) {
+      tooltip
+        .transition()
+        .duration(200)
+      tooltip
+        .style("opacity", 1)
+        .html("Country: " + d.Canton)
+        .style("left", (d3.mouse(this)[0]+30) + "px")
+        .style("top", (d3.mouse(this)[1]+30) + "px")
+    }
+    var moveTooltip = function(d) {
+      tooltip
+        .style("left", (d3.mouse(this)[0]+30) + "px")
+        .style("top", (d3.mouse(this)[1]+30) + "px")
+    }
+    var hideTooltip = function(d) {
+      tooltip
+        .transition()
+        .duration(200)
+        .style("opacity", 0)
+    
+    }
+    var districArray = ["San José", "Alajuela", "Cartago", "Limón", "Heredia","Puntarenas","Guanacaste"]
+    
+    var districImages = {
+      "San José":"/assets/img/sanJose.png",
+      "Alajuela": "/assets/img/alajuela.jpg",
+      "Cartago": "/assets//img/papa.jpg",
+      "Limón": "/assets//img/limon.jpg",
+      "Heredia": "/assets//img/heredia.png",
+      "Puntarenas": "/assets//img/puntarenas.jpg",
+      "Guanacaste": "/assets//img/guanacaste.png"
+    }
 
-  // -2- Create 3 functions to show / update (when mouse move but stay on same circle) / hide the tooltip
-  var showTooltip = function(d) {
-    tooltip
-      .transition()
-      .duration(200)
-    tooltip
-      .style("opacity", 1)
-      .html("Country: " + d.country)
-      .style("left", (d3.mouse(this)[0]+30) + "px")
-      .style("top", (d3.mouse(this)[1]+30) + "px")
-  }
-  var moveTooltip = function(d) {
-    tooltip
-      .style("left", (d3.mouse(this)[0]+30) + "px")
-      .style("top", (d3.mouse(this)[1]+30) + "px")
-  }
-  var hideTooltip = function(d) {
-    tooltip
-      .transition()
-      .duration(200)
-      .style("opacity", 0)
-  }
+    var myColor = d3.scaleOrdinal()
+    .domain(districArray)
+    .range(d3.schemeSet1);
+    
+    if(type == 'glifo') {
+      
+      svg.append('g')
+      .selectAll("dot")
+      .data(data)
+      .enter()
+      .append("image")
+        .attr("x", function (d) { return x(d.Densidad); } )
+        .attr("y", function (d) { return y(d.Poblacion); } )
+        .attr("xlink:href", function (d) { 
+          console.log('--')
+          console.log(d)
+          
+          return districImages[d.Provincia] })
+        .attr("height", function (d) { return z(d.Poblacion)+15; } )
+        .attr("widht", function (d) { return z(d.Poblacion)+15; } )
+        .style("opacity", "0.7")
+        .attr("stroke", "black")
+  
+        .on("mouseover", showTooltip )
+        .on("mousemove", moveTooltip )
+        .on("mouseleave", hideTooltip )  
+    }
+    if(type == 'rectangulo') {
+      
+      svg.append('g')
+      .selectAll("dot")
+      .data(data)
+      .enter()
+      .append("rect")
+        .attr("x", function (d) { return x(d.Densidad); } )
+        .attr("y", function (d) { return y(d.Poblacion); } )
+        .attr("height", function (d) { return z(d.Poblacion); } )
+        .attr("width", function (d) { return z(d.Poblacion); } )
+        .style("fill", function (d) { return myColor(d.Provincia); })
+      
+  
+        .on("mouseover", showTooltip )
+        .on("mousemove", moveTooltip )
+        .on("mouseleave", hideTooltip )  
+    }
+    if(type == 'bubbles') {
+      svg.append('g')
+      .selectAll("dot")
+      .data(data)
+      .enter()
+      .append("circle")
+        .attr("cx", function (d) { return x(d.Densidad); } )
+        .attr("cy", function (d) { return y(d.Poblacion); } )
+        .attr("r", function (d) { return z(d.Poblacion); } )
+        .style("fill", function (d) { return myColor(d.Provincia); })
+        .style("opacity", "0.7")
+        .attr("stroke", "black")
+  
+        .on("mouseover", showTooltip )
+        .on("mousemove", moveTooltip )
+        .on("mouseleave", hideTooltip )  
+    }
 
+    //Labels
 
-  // ---------------------------//
-  //       HIGHLIGHT GROUP      //
-  // ---------------------------//
+    //HighLight
 
   // What to do when one group is hovered
   var highlight = function(d){
@@ -202,107 +221,124 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
   }
 
 
-  // ---------------------------//
-  //       CIRCLES              //
-  // ---------------------------//
+ 
+     // Add one dot in the legend for each name.
+     var size = 20
+    
+    if(type == 'glifo') {
+      svg.selectAll("myrect")
+      .data(districArray)
+      .enter()
+      .append("image")
+        .attr("x", width+10)
+        .attr("y", function(d,i){ return  i*(size+5)}) // 100 is where the first dot appears. 25 is the distance between dots
+        .attr("height", 20 )
+        .attr("widht", 20 )
+        .attr("xlink:href", function (d) { 
+          console.log(d)
+          var src =  districImages[d] 
+          console.log(src)
+          return src;
+        })
+        .style("opacity", "0.7")
 
-  // Add dots
-  svg.append('g')
-    .selectAll("dot")
-    .data(data)
-    .enter()
-    .append("circle")
-      .attr("class", function(d) { return "bubbles " + d.continent })
-      .attr("cx", function (d) { return x(d.gdpPercap); } )
-      .attr("cy", function (d) { return y(d.lifeExp); } )
-      .attr("r", function (d) { return z(d.pop); } )
-      .style("fill", function (d) { return myColor(d.continent); } )
-    // -3- Trigger the functions for hover
-    .on("mouseover", showTooltip )
-    .on("mousemove", moveTooltip )
-    .on("mouseleave", hideTooltip )
+ // Add labels beside legend dots
+       svg.selectAll("mylabels")
+       .data(districArray)
+       .enter()
+       .append("text")
+         .attr("x", width+35 + size*.8)
+         .attr("y", function(d,i){ return i * (size + 5) + (size/2)}) // 100 is where the first dot appears. 25 is the distance between dots
+         .style("fill", function(d){ return myColor(d)})
+         .text(function(d){ return d})
+         .attr("text-anchor", "left")
+         .style("alignment-baseline", "middle")
+         .on("mouseover", highlight)
+         .on("mouseleave", noHighlight)
+            
 
-
-
-    // ---------------------------//
-    //       LEGEND              //
-    // ---------------------------//
-
-    // Add legend: circles
-    var valuesToShow = [10000000, 100000000, 1000000000]
-    var xCircle = 390
-    var xLabel = 440
-    svg
-      .selectAll("legend")
-      .data(valuesToShow)
+    }else {
+      svg.selectAll("myrect")
+      .data(districArray)
       .enter()
       .append("circle")
-        .attr("cx", xCircle)
-        .attr("cy", function(d){ return height - 100 - z(d) } )
-        .attr("r", function(d){ return z(d) })
-        .style("fill", "none")
-        .attr("stroke", "black")
-
-    // Add legend: segments
-    svg
-      .selectAll("legend")
-      .data(valuesToShow)
-      .enter()
-      .append("line")
-        .attr('x1', function(d){ return xCircle + z(d) } )
-        .attr('x2', xLabel)
-        .attr('y1', function(d){ return height - 100 - z(d) } )
-        .attr('y2', function(d){ return height - 100 - z(d) } )
-        .attr('stroke', 'black')
-        .style('stroke-dasharray', ('2,2'))
-
-    // Add legend: labels
-    svg
-      .selectAll("legend")
-      .data(valuesToShow)
-      .enter()
-      .append("text")
-        .attr('x', xLabel)
-        .attr('y', function(d){ return height - 100 - z(d) } )
-        .text( function(d){ return d/1000000 } )
-        .style("font-size", 10)
-        .attr('alignment-baseline', 'middle')
-
-    // Legend title
-    svg.append("text")
-      .attr('x', xCircle)
-      .attr("y", height - 100 +30)
-      .text("Population (M)")
-      .attr("text-anchor", "middle")
-
-    // Add one dot in the legend for each name.
-    var size = 20
-    var allgroups = ["Asia", "Europe", "Americas", "Africa", "Oceania"]
-    svg.selectAll("myrect")
-      .data(allgroups)
-      .enter()
-      .append("circle")
-        .attr("cx", 390)
+        .attr("cx", width+40)
         .attr("cy", function(d,i){ return 10 + i*(size+5)}) // 100 is where the first dot appears. 25 is the distance between dots
         .attr("r", 7)
         .style("fill", function(d){ return myColor(d)})
-        .on("mouseover", highlight)
-        .on("mouseleave", noHighlight)
+     // Add labels beside legend dots
+     svg.selectAll("mylabels")
+       .data(districArray)
+       .enter()
+       .append("text")
+         .attr("x", width+40 + size*.8)
+         .attr("y", function(d,i){ return i * (size + 5) + (size/2)}) // 100 is where the first dot appears. 25 is the distance between dots
+         .style("fill", function(d){ return myColor(d)})
+         .text(function(d){ return d})
+         .attr("text-anchor", "left")
+         .style("alignment-baseline", "middle")
+         .on("mouseover", highlight)
+         .on("mouseleave", noHighlight)
+    
+    
+    }
+        
+    
+  }
 
-    // Add labels beside legend dots
-    svg.selectAll("mylabels")
-      .data(allgroups)
-      .enter()
+
+  private createBarChart(): void {
+    d3.select('svg').remove();
+    const margin = {top: 40, right: 10, bottom: 30, left: 80};
+    const element = this.chartContainer.nativeElement;
+    const data = this.data.slice(0,10)
+    const svg = d3.select(element).append('svg')
+        .attr('width', element.offsetWidth)
+        .attr('height', 300);
+
+    const contentWidth = element.offsetWidth - this.margin.left - this.margin.right;
+    const contentHeight = element.offsetHeight - this.margin.top - this.margin.bottom;
+
+    const x = d3
+      .scaleBand()
+      .rangeRound([0, contentWidth])
+      .padding(0.1)
+      .domain(data.map(d => d.Canton));
+
+    const y = d3
+      .scaleLinear()
+      .range([contentHeight,0])
+      .domain([0, d3.max(data, d => Number(d.Poblacion))])
+      
+    const g = svg.append('g')
+      .attr('transform', 
+      'translate(' + this.margin.left + ',' + this.margin.top + ')');
+
+    g.append('g')
+      .attr('class', 'axis axis--x')
+      .attr('transform', 'translate(0,' + contentHeight + ')')
+      .call(d3.axisBottom(x));
+
+    g.append('g')
+      .call(d3.axisLeft(y))
       .append("text")
-        .attr("x", 390 + size*.8)
-        .attr("y", function(d,i){ return i * (size + 5) + (size/2)}) // 100 is where the first dot appears. 25 is the distance between dots
-        .style("fill", function(d){ return myColor(d)})
-        .text(function(d){ return d})
-        .attr("text-anchor", "left")
-        .style("alignment-baseline", "middle")
-        .on("mouseover", highlight)
-        .on("mouseleave", noHighlight)
-    });
+      .attr('y',-15)
+      .attr('x',-10)
+	    .attr("fill", "#000")
+	    .attr("dy", "0.71em")
+	    .text("Poblacion");
+
+    g.selectAll('.bar')
+      .data(data)
+      .enter()
+      .append('rect')
+        .attr('class', 'bar')
+        .attr('x', d => x(d.Canton))
+        .attr('y', d => y(Number(d.Poblacion)))
+        .attr('width', x.bandwidth())
+        .attr('height', d =>{
+          return (contentHeight - y(d.Poblacion));
+        }) 
   }
 
 }

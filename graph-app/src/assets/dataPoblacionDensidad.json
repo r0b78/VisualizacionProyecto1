@@ -1,22 +1,658 @@
 [
     {
-        "Canton": "Hola",
-        "Poblacion": 1230,
-        "Densidad": 0.9
+      "Canton": "San José",
+      "Provincia": "San José",
+      "CantonN": 1,
+      "Area": 44.62,
+      "Poblacion": 288.05,
+      "Densidad": 6445.71
     },
     {
-        "Canton": "San Jose",
-        "Poblacion": 3453,
-        "Densidad": 0.76
+      "Canton": "Alajuela",
+      "Provincia": "Alajuela",
+      "CantonN": 1,
+      "Area": 388.43,
+      "Poblacion": 254.886,
+      "Densidad": 656.2
     },
     {
-        "Canton": "Cartago",
-        "Poblacion": 9876,
-        "Densidad": 0.23
+      "Canton": "Desamparados",
+      "Provincia": "San José",
+      "CantonN": 3,
+      "Area": 118.26,
+      "Poblacion": 208.41,
+      "Densidad": 1751.31
     },
     {
-        "Canton": "ago",
-        "Poblacion": 1876,
-        "Densidad": 0.23
+      "Canton": "San Carlos",
+      "Provincia": "Alajuela",
+      "CantonN": 10,
+      "Area": 3347.98,
+      "Poblacion": 163.75,
+      "Densidad": 48.91
+    },
+    {
+      "Canton": "Cartago",
+      "Provincia": "Cartago",
+      "CantonN": 1,
+      "Area": 287.77,
+      "Poblacion": 147.9,
+      "Densidad": 513.95
+    },
+    {
+      "Canton": "Pérez Zeledón",
+      "Provincia": "San José",
+      "CantonN": 19,
+      "Area": 1905.51,
+      "Poblacion": 134.53,
+      "Densidad": 70.6
+    },
+    {
+      "Canton": "Pococí",
+      "Provincia": "Limón",
+      "CantonN": 2,
+      "Area": 2403.49,
+      "Poblacion": 125.96,
+      "Densidad": 52.41
+    },
+    {
+      "Canton": "Heredia",
+      "Provincia": "Heredia",
+      "CantonN": 1,
+      "Area": 282.6,
+      "Poblacion": 123.62,
+      "Densidad": 437.42
+    },
+    {
+      "Canton": "Puntarenas",
+      "Provincia": "Puntarenas",
+      "CantonN": 1,
+      "Area": 1842.33,
+      "Poblacion": 115.02,
+      "Densidad": 62.43
+    },
+    {
+      "Canton": "Goicoechea",
+      "Provincia": "San José",
+      "CantonN": 8,
+      "Area": 31.5,
+      "Poblacion": 115.08,
+      "Densidad": 3653.46
+    },
+    {
+      "Canton": "La Unión",
+      "Provincia": "Cartago",
+      "CantonN": 3,
+      "Area": 44.83,
+      "Poblacion": 99.4,
+      "Densidad": 2217.24
+    },
+    {
+      "Canton": "Limón",
+      "Provincia": "Limón",
+      "CantonN": 1,
+      "Area": 1765.79,
+      "Poblacion": 94.42,
+      "Densidad": 53.47
+    },
+    {
+      "Canton": "San Ramón",
+      "Provincia": "Alajuela",
+      "CantonN": 2,
+      "Area": 1018.64,
+      "Poblacion": 80.57,
+      "Densidad": 79.09
+    },
+    {
+      "Canton": "Alajuelita",
+      "Provincia": "San José",
+      "CantonN": 10,
+      "Area": 21.17,
+      "Poblacion": 77.6,
+      "Densidad": 3665.71
+    },
+    {
+      "Canton": "Turrialba",
+      "Provincia": "Cartago",
+      "CantonN": 5,
+      "Area": 1642.67,
+      "Poblacion": 69.62,
+      "Densidad": 42.38
+    },
+    {
+      "Canton": "Grecia",
+      "Provincia": "Alajuela",
+      "CantonN": 3,
+      "Area": 141.52,
+      "Poblacion": 65.82,
+      "Densidad": 465.12
+    },
+    {
+      "Canton": "Curridabat",
+      "Provincia": "San José",
+      "CantonN": 18,
+      "Area": 15.95,
+      "Poblacion": 65.21,
+      "Densidad": 4088.15
+    },
+    {
+      "Canton": "Tibás",
+      "Provincia": "San José",
+      "CantonN": 13,
+      "Area": 8.15,
+      "Poblacion": 64.84,
+      "Densidad": 7956.07
+    },
+    {
+      "Canton": "Liberia",
+      "Provincia": "Guanacaste",
+      "CantonN": 1,
+      "Area": 1436.47,
+      "Poblacion": 62.99,
+      "Densidad": 43.85
+    },
+    {
+      "Canton": "Vásquez de Coronado",
+      "Provincia": "San José",
+      "CantonN": 11,
+      "Area": 222.2,
+      "Poblacion": 60.49,
+      "Densidad": 272.21
+    },
+    {
+      "Canton": "Aserrí",
+      "Provincia": "San José",
+      "CantonN": 6,
+      "Area": 167.1,
+      "Poblacion": 57.89,
+      "Densidad": 346.45
+    },
+    {
+      "Canton": "Paraíso",
+      "Provincia": "Cartago",
+      "CantonN": 2,
+      "Area": 411.91,
+      "Poblacion": 57.74,
+      "Densidad": 140.18
+    },
+    {
+      "Canton": "Sarapiquí",
+      "Provincia": "Heredia",
+      "CantonN": 10,
+      "Area": 2140.54,
+      "Poblacion": 57.15,
+      "Densidad": 26.7
+    },
+    {
+      "Canton": "Siquirres",
+      "Provincia": "Limón",
+      "CantonN": 3,
+      "Area": 860.19,
+      "Poblacion": 56.79,
+      "Densidad": 66.02
+    },
+    {
+      "Canton": "Moravia",
+      "Provincia": "San José",
+      "CantonN": 14,
+      "Area": 28.62,
+      "Poblacion": 56.92,
+      "Densidad": 1988.78
+    },
+    {
+      "Canton": "Escazú",
+      "Provincia": "San José",
+      "CantonN": 2,
+      "Area": 34.39,
+      "Poblacion": 56.51,
+      "Densidad": 1643.18
+    },
+    {
+      "Canton": "Santa Cruz",
+      "Provincia": "Guanacaste",
+      "CantonN": 3,
+      "Area": 1312.27,
+      "Poblacion": 55.1,
+      "Densidad": 41.99
+    },
+    {
+      "Canton": "Nicoya",
+      "Provincia": "Guanacaste",
+      "CantonN": 2,
+      "Area": 1333.68,
+      "Poblacion": 50.83,
+      "Densidad": 38.11
+    },
+    {
+      "Canton": "Montes de Oca",
+      "Provincia": "San José",
+      "CantonN": 15,
+      "Area": 15.16,
+      "Poblacion": 49.13,
+      "Densidad": 3240.9
+    },
+    {
+      "Canton": "Santa Ana",
+      "Provincia": "San José",
+      "CantonN": 9,
+      "Area": 61.42,
+      "Poblacion": 49.12,
+      "Densidad": 799.79
+    },
+    {
+      "Canton": "San Rafael",
+      "Provincia": "Heredia",
+      "CantonN": 5,
+      "Area": 48.39,
+      "Poblacion": 45.97,
+      "Densidad": 949.89
+    },
+    {
+      "Canton": "Oreamuno",
+      "Provincia": "Cartago",
+      "CantonN": 7,
+      "Area": 202.31,
+      "Poblacion": 45.47,
+      "Densidad": 224.77
+    },
+    {
+      "Canton": "Buenos Aires",
+      "Provincia": "Puntarenas",
+      "CantonN": 3,
+      "Area": 2384.22,
+      "Poblacion": 45.24,
+      "Densidad": 18.98
+    },
+    {
+      "Canton": "Upala",
+      "Provincia": "Alajuela",
+      "CantonN": 13,
+      "Area": 1580.67,
+      "Poblacion": 43.95,
+      "Densidad": 27.81
+    },
+    {
+      "Canton": "Naranjo",
+      "Provincia": "Alajuela",
+      "CantonN": 6,
+      "Area": 126.62,
+      "Poblacion": 42.71,
+      "Densidad": 337.33
+    },
+    {
+      "Canton": "Corredores",
+      "Provincia": "Puntarenas",
+      "CantonN": 10,
+      "Area": 620.6,
+      "Poblacion": 41.83,
+      "Densidad": 67.4
+    },
+    {
+      "Canton": "El Guarco",
+      "Provincia": "Cartago",
+      "CantonN": 8,
+      "Area": 167.69,
+      "Poblacion": 41.79,
+      "Densidad": 249.23
+    },
+    {
+      "Canton": "Guácimo",
+      "Provincia": "Limón",
+      "CantonN": 6,
+      "Area": 576.48,
+      "Poblacion": 41.27,
+      "Densidad": 71.58
+    },
+    {
+      "Canton": "Barva",
+      "Provincia": "Heredia",
+      "CantonN": 2,
+      "Area": 53.8,
+      "Poblacion": 40.66,
+      "Densidad": 755.76
+    },
+    {
+      "Canton": "Santo Domingo",
+      "Provincia": "Heredia",
+      "CantonN": 3,
+      "Area": 24.84,
+      "Poblacion": 40.07,
+      "Densidad": 1613.2
+    },
+    {
+      "Canton": "Golfito",
+      "Provincia": "Puntarenas",
+      "CantonN": 7,
+      "Area": 1753.96,
+      "Poblacion": 39.15,
+      "Densidad": 22.32
+    },
+    {
+      "Canton": "Coto Brus",
+      "Provincia": "Puntarenas",
+      "CantonN": 8,
+      "Area": 933.91,
+      "Poblacion": 38.45,
+      "Densidad": 41.17
+    },
+    {
+      "Canton": "Matina",
+      "Provincia": "Limón",
+      "CantonN": 5,
+      "Area": 772.64,
+      "Poblacion": 37.72,
+      "Densidad": 48.82
+    },
+    {
+      "Canton": "Carrillo",
+      "Provincia": "Guanacaste",
+      "CantonN": 5,
+      "Area": 577.54,
+      "Poblacion": 37.12,
+      "Densidad": 64.28
+    },
+    {
+      "Canton": "Santa Bárbara",
+      "Provincia": "Heredia",
+      "CantonN": 4,
+      "Area": 53.21,
+      "Poblacion": 36.24,
+      "Densidad": 681.13
+    },
+    {
+      "Canton": "Palmares",
+      "Provincia": "Alajuela",
+      "CantonN": 7,
+      "Area": 38.06,
+      "Poblacion": 34.72,
+      "Densidad": 912.14
+    },
+    {
+      "Canton": "Puriscal",
+      "Provincia": "San José",
+      "CantonN": 4,
+      "Area": 553,
+      "Poblacion": 33,
+      "Densidad": 59.68
+    },
+    {
+      "Canton": "Talamanca",
+      "Provincia": "Limón",
+      "CantonN": 4,
+      "Area": 2809.93,
+      "Poblacion": 30.71,
+      "Densidad": 10.93
+    },
+    {
+      "Canton": "Osa",
+      "Provincia": "Puntarenas",
+      "CantonN": 5,
+      "Area": 1930.24,
+      "Poblacion": 29.43,
+      "Densidad": 15.25
+    },
+    {
+      "Canton": "Poás",
+      "Provincia": "Alajuela",
+      "CantonN": 8,
+      "Area": 73.84,
+      "Poblacion": 29.2,
+      "Densidad": 395.44
+    },
+    {
+      "Canton": "Esparza",
+      "Provincia": "Puntarenas",
+      "CantonN": 2,
+      "Area": 216.8,
+      "Poblacion": 28.64,
+      "Densidad": 132.12
+    },
+    {
+      "Canton": "San Pablo",
+      "Provincia": "Heredia",
+      "CantonN": 9,
+      "Area": 7.53,
+      "Poblacion": 27.67,
+      "Densidad": 3674.77
+    },
+    {
+      "Canton": "Quepos",
+      "Provincia": "Puntarenas",
+      "CantonN": 6,
+      "Area": 543.77,
+      "Poblacion": 26.86,
+      "Densidad": 49.4
+    },
+    {
+      "Canton": "Mora",
+      "Provincia": "San José",
+      "CantonN": 7,
+      "Area": 162.04,
+      "Poblacion": 26.29,
+      "Densidad": 162.27
+    },
+    {
+      "Canton": "Cañas",
+      "Provincia": "Guanacaste",
+      "CantonN": 6,
+      "Area": 682.2,
+      "Poblacion": 26.2,
+      "Densidad": 38.41
+    },
+    {
+      "Canton": "Atenas",
+      "Provincia": "Alajuela",
+      "CantonN": 5,
+      "Area": 127.19,
+      "Poblacion": 25.46,
+      "Densidad": 200.17
+    },
+    {
+      "Canton": "Los Chiles",
+      "Provincia": "Alajuela",
+      "CantonN": 14,
+      "Area": 1358.86,
+      "Poblacion": 23.74,
+      "Densidad": 17.47
+    },
+    {
+      "Canton": "Belén",
+      "Provincia": "Heredia",
+      "CantonN": 7,
+      "Area": 12.15,
+      "Poblacion": 21.63,
+      "Densidad": 1780.49
+    },
+    {
+      "Canton": "San Isidro",
+      "Provincia": "Heredia",
+      "CantonN": 6,
+      "Area": 26.96,
+      "Poblacion": 20.63,
+      "Densidad": 765.32
+    },
+    {
+      "Canton": "Orotina",
+      "Provincia": "Alajuela",
+      "CantonN": 9,
+      "Area": 141.92,
+      "Poblacion": 20.34,
+      "Densidad": 143.33
+    },
+    {
+      "Canton": "Acosta",
+      "Provincia": "San José",
+      "CantonN": 12,
+      "Area": 342.24,
+      "Poblacion": 20.21,
+      "Densidad": 59.05
+    },
+    {
+      "Canton": "Flores",
+      "Provincia": "Heredia",
+      "CantonN": 8,
+      "Area": 6.96,
+      "Poblacion": 20.04,
+      "Densidad": 2878.88
+    },
+    {
+      "Canton": "Tilarán",
+      "Provincia": "Guanacaste",
+      "CantonN": 8,
+      "Area": 638.39,
+      "Poblacion": 19.64,
+      "Densidad": 30.76
+    },
+    {
+      "Canton": "Bagaces",
+      "Provincia": "Guanacaste",
+      "CantonN": 4,
+      "Area": 1273.49,
+      "Poblacion": 19.54,
+      "Densidad": 15.34
+    },
+    {
+      "Canton": "La Cruz",
+      "Provincia": "Guanacaste",
+      "CantonN": 10,
+      "Area": 1383.9,
+      "Poblacion": 19.18,
+      "Densidad": 13.86
+    },
+    {
+      "Canton": "Valverde Vega",
+      "Provincia": "Alajuela",
+      "CantonN": 12,
+      "Area": 120.25,
+      "Poblacion": 18.09,
+      "Densidad": 150.4
+    },
+    {
+      "Canton": "Abangares",
+      "Provincia": "Guanacaste",
+      "CantonN": 7,
+      "Area": 675.76,
+      "Poblacion": 18.04,
+      "Densidad": 26.69
+    },
+    {
+      "Canton": "Garabito",
+      "Provincia": "Puntarenas",
+      "CantonN": 11,
+      "Area": 316.31,
+      "Poblacion": 17.23,
+      "Densidad": 54.47
+    },
+    {
+      "Canton": "Tarrazú",
+      "Provincia": "San José",
+      "CantonN": 5,
+      "Area": 297.5,
+      "Poblacion": 16.28,
+      "Densidad": 54.72
+    },
+    {
+      "Canton": "Parrita",
+      "Provincia": "Puntarenas",
+      "CantonN": 9,
+      "Area": 478.79,
+      "Poblacion": 16.12,
+      "Densidad": 33.66
+    },
+    {
+      "Canton": "Guatuso",
+      "Provincia": "Alajuela",
+      "CantonN": 15,
+      "Area": 758.32,
+      "Poblacion": 15.51,
+      "Densidad": 20.45
+    },
+    {
+      "Canton": "Jiménez",
+      "Provincia": "Cartago",
+      "CantonN": 4,
+      "Area": 286.43,
+      "Poblacion": 14.67,
+      "Densidad": 51.21
+    },
+    {
+      "Canton": "Alvarado",
+      "Provincia": "Cartago",
+      "CantonN": 6,
+      "Area": 81.06,
+      "Poblacion": 14.31,
+      "Densidad": 176.56
+    },
+    {
+      "Canton": "Montes de Oro",
+      "Provincia": "Puntarenas",
+      "CantonN": 4,
+      "Area": 244.76,
+      "Poblacion": 12.95,
+      "Densidad": 52.91
+    },
+    {
+      "Canton": "Zarcero",
+      "Provincia": "Alajuela",
+      "CantonN": 11,
+      "Area": 155.13,
+      "Poblacion": 12.21,
+      "Densidad": 78.68
+    },
+    {
+      "Canton": "León Cortés",
+      "Provincia": "San José",
+      "CantonN": 20,
+      "Area": 120.8,
+      "Poblacion": 12.2,
+      "Densidad": 100.99
+    },
+    {
+      "Canton": "Nandayure",
+      "Provincia": "Guanacaste",
+      "CantonN": 9,
+      "Area": 565.59,
+      "Poblacion": 11.12,
+      "Densidad": 19.66
+    },
+    {
+      "Canton": "Río Cuarto",
+      "Provincia": "Alajuela",
+      "CantonN": 16,
+      "Area": 254.2,
+      "Poblacion": 11.07,
+      "Densidad": 43.56
+    },
+    {
+      "Canton": "Hojancha",
+      "Provincia": "Guanacaste",
+      "CantonN": 11,
+      "Area": 261.42,
+      "Poblacion": 7.2,
+      "Densidad": 27.53
+    },
+    {
+      "Canton": "Dota",
+      "Provincia": "San José",
+      "CantonN": 17,
+      "Area": 400.22,
+      "Poblacion": 6.95,
+      "Densidad": 17.36
+    },
+    {
+      "Canton": "San Mateo",
+      "Provincia": "Alajuela",
+      "CantonN": 4,
+      "Area": 125.9,
+      "Poblacion": 6.14,
+      "Densidad": 48.74
+    },
+    {
+      "Canton": "Turrubares",
+      "Provincia": "San José",
+      "CantonN": 16,
+      "Area": 415.29,
+      "Poblacion": 5.51,
+      "Densidad": 13.27
     }
-]
+  ]
