@@ -17,6 +17,8 @@ export class BubbleChartComponent implements OnInit {
   private ejeY = 'Poblacion';
   private ejeX = 'Densidad';
   private tittle = 'Grafico de ' +this.tipo +', '+this.ejeX+' vs '+ this.ejeX;
+  
+
   @Input()
   data: DataModelPoblacion[];
   
@@ -24,6 +26,27 @@ export class BubbleChartComponent implements OnInit {
   onResize(event) {
     this.changeChart(this.type);
   }
+
+ /*  @Component({
+    selector: 'my-app',
+    template: `
+      <h2>Select demo</h2>
+      <select [(ngModel)]="selectedCity" (ngModelChange)="onChange($event)" >
+        <option *ngFor="let c of cities" [ngValue]="c"> {{c.name}} </option>
+      </select>
+    `
+  })
+  class App {
+    cities = [{'name': 'SF'}, {'name': 'NYC'}, {'name': 'Buffalo'}];
+    selectedCity = this.cities[1];
+  
+    onChange(city) {
+      alert(city.name);
+    }
+  } */
+
+
+
 
   constructor() { }
 
