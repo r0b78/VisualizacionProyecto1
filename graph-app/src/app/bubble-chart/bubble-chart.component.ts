@@ -8,11 +8,15 @@ import * as d3 from 'd3';
   styleUrls: ['./bubble-chart.component.css']
 })
 export class BubbleChartComponent implements OnInit {
-  margin = {top: 40, right: 150, bottom: 30, left: 80};
+  margin = {top: 40, right: 170, bottom: 60, left: 80};
 
   @ViewChild('my_data',{static: false})
   private chartContainer: ElementRef;
   private type = 'bubbles';
+  private tipo = 'Burbujas';
+  private ejeY = 'Poblacion';
+  private ejeX = 'Densidad';
+  private tittle = 'Grafico de ' +this.tipo +', '+this.ejeX+' vs '+ this.ejeX;
   @Input()
   data: DataModelPoblacion[];
   
@@ -30,25 +34,39 @@ export class BubbleChartComponent implements OnInit {
       return; 
     }
     this.createBubbleChart(this.type);
-     
+    this.changeTittle(this.tittle);
   }
+
+  private changeTittle(tittle:string):void {
+    document.getElementById("lblName").innerHTML = tittle;
+  }
+
   public handleClickEstandar(event: Event): void {
     this.type = 'bubbles'
+    this.tittle = 'Grafico de Burbujas'
+    this.changeTittle(this.tittle);
     this.changeChart(this.type);
     
   }
   public handleClickRectagulo(event: Event): void {
     this.type = 'rectangulo'
+    this.tittle = 'Grafico de Rectangulos'
+    this.changeTittle(this.tittle);
     this.changeChart(this.type);
   }
 
   public handleClickBarras(event: Event): void {
     this.type = 'barras'
+    this.tittle = 'Grafico de Barras'
+    this.changeTittle(this.tittle);
+
     this.changeChart(this.type);
   }
 
   public handleClickGlifo(event: Event): void {
     this.type = 'glifo'
+    this.tittle = 'Grafico de Glifo'
+    this.changeTittle(this.tittle);
     this.changeChart(this.type);
   }
 
@@ -58,7 +76,6 @@ export class BubbleChartComponent implements OnInit {
     if(type == 'barras') {
       this.createBarChart();
     }else {
-     
       this.createBubbleChart(type);  
     }
     
@@ -67,7 +84,7 @@ export class BubbleChartComponent implements OnInit {
     const element = this.chartContainer.nativeElement;
    
     const data = this.data
-
+    var that= this;
     const svg = d3.select("#my_data")
               .append("svg")
                 .attr("width", element.offsetWidth )
@@ -80,23 +97,40 @@ export class BubbleChartComponent implements OnInit {
     let height = element.offsetHeight - this.margin.top - this.margin.bottom;
 
     const x = d3.scaleLinear()
-            .domain([0, d3.max(data, dataPoint => dataPoint.Densidad)+10])
+            .domain([0, d3.max(data, dataPoint => dataPoint[this.ejeX])+10])
             .range([ 0, width ]);
     
     svg.append("g")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
-
+      .call(d3.axisBottom(x))
+     
     const y = d3.scaleLinear()
-            .domain([0, d3.max(data, dataPoint => dataPoint.Poblacion)])
+            .domain([0, d3.max(data, dataPoint => dataPoint[this.ejeY])])
             .range([ height, 0]);
     
     svg.append("g")
     .call(d3.axisLeft(y));
 
     const z = d3.scaleLinear()
-              .domain([0, d3.max(data, dataPoint => dataPoint.Poblacion)])
+              .domain([0, d3.max(data, dataPoint => dataPoint[this.ejeY])])
               .range([ 0, 40 ]);
+
+
+    // Y axis 
+    svg.append("text")
+    .attr("text-anchor", "end")
+    .attr("x", 0)
+    .attr("y", -20 )
+    .text(this.ejeY)
+    .attr("text-anchor", "start");
+
+    // X axis
+    svg.append("text")
+    .attr("text-anchor", "end")
+    .attr("x", width)
+    .attr("y", height + 45 )
+    .text(this.ejeX);
+
 
     var tooltip = d3.select("#my_data")
     .append("div")
@@ -113,13 +147,14 @@ export class BubbleChartComponent implements OnInit {
       tooltip
         .style("opacity", 1)
         .html("Country: " + d.Canton)
+        .style("font-size","1.1em")
         .style("left", (d3.mouse(this)[0]+30) + "px")
-        .style("top", (d3.mouse(this)[1]+30) + "px")
+        .style("top", (d3.mouse(this)[1]+100) + "px")
     }
     var moveTooltip = function(d) {
       tooltip
         .style("left", (d3.mouse(this)[0]+30) + "px")
-        .style("top", (d3.mouse(this)[1]+30) + "px")
+        .style("top", (d3.mouse(this)[1]+100) + "px")
     }
     var hideTooltip = function(d) {
       tooltip
@@ -151,15 +186,14 @@ export class BubbleChartComponent implements OnInit {
       .data(data)
       .enter()
       .append("image")
-        .attr("x", function (d) { return x(d.Densidad); } )
-        .attr("y", function (d) { return y(d.Poblacion); } )
-        .attr("xlink:href", function (d) { 
-          console.log('--')
-          console.log(d)
-          
+        .attr("x", function (d) { return x(d[that.ejeX]); } )
+        .attr("y", function (d) { return y(d[that.ejeY]); } )
+        .attr("xlink:href", function (d) {
           return districImages[d.Provincia] })
-        .attr("height", function (d) { return z(d.Poblacion)+15; } )
-        .attr("widht", function (d) { return z(d.Poblacion)+15; } )
+        .attr("height", function (d) { 
+          console.log(that.ejeY)
+          return z(d[that.ejeY])+15; } )
+        .attr("widht", function (d) { return z(d[that.ejeY])+15; } )
         .style("opacity", "0.7")
         .attr("stroke", "black")
   
@@ -174,10 +208,10 @@ export class BubbleChartComponent implements OnInit {
       .data(data)
       .enter()
       .append("rect")
-        .attr("x", function (d) { return x(d.Densidad); } )
-        .attr("y", function (d) { return y(d.Poblacion); } )
-        .attr("height", function (d) { return z(d.Poblacion); } )
-        .attr("width", function (d) { return z(d.Poblacion); } )
+        .attr("x", function (d) { return x(d[that.ejeX]); } )
+        .attr("y", function (d) { return y(d[that.ejeY]); } )
+        .attr("height", function (d) { return z(d[that.ejeY]); } )
+        .attr("width", function (d) { return z(d[that.ejeY]); } )
         .style("fill", function (d) { return myColor(d.Provincia); })
       
   
@@ -185,15 +219,16 @@ export class BubbleChartComponent implements OnInit {
         .on("mousemove", moveTooltip )
         .on("mouseleave", hideTooltip )  
     }
+
     if(type == 'bubbles') {
       svg.append('g')
       .selectAll("dot")
       .data(data)
       .enter()
       .append("circle")
-        .attr("cx", function (d) { return x(d.Densidad); } )
-        .attr("cy", function (d) { return y(d.Poblacion); } )
-        .attr("r", function (d) { return z(d.Poblacion); } )
+        .attr("cx", function (d) { return x(d[that.ejeX]); } )
+        .attr("cy", function (d) { return y(d[that.ejeY]); } )
+        .attr("r", function (d) { return z(d[that.ejeY]); } )
         .style("fill", function (d) { return myColor(d.Provincia); })
         .style("opacity", "0.7")
         .attr("stroke", "black")
@@ -235,9 +270,7 @@ export class BubbleChartComponent implements OnInit {
         .attr("height", 20 )
         .attr("widht", 20 )
         .attr("xlink:href", function (d) { 
-          console.log(d)
           var src =  districImages[d] 
-          console.log(src)
           return src;
         })
         .style("opacity", "0.7")

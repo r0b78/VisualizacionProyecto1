@@ -1,57 +1,115 @@
-<h2>
-    Bubble Chart Tittle
-</h2>
-<!-- Load color scale -->
 
+<div class="row" style="margin-top: 50px;margin-bottom: 30px;">
+    <div class="col text-center">
+        <h2 #lblName id ="lblName">
+            
+        </h2>
+        
+    </div>
+</div>
 
+<div class="col-11">
+    
+    <div class="row">
+        <div class="col-6">
+
+        </div>
+        <div class="col-6 text-right">
+            <div class="dropdown">
+            <button style="background-color: white;color:black" class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            
+            <i class="fa fa-filter"></i>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Seleccione la magnitud de Tamano</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Poblacion</a>
+            <a class="dropdown-item" href="#">Area</a>
+            <a class="dropdown-item" href="#">Densidad de Poblacion</a>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
 
 <div #my_data id="my_data"></div> 
 
-
+<div class="col-11" style="display: none;">
+    
+        <div class="row">
+            <div class="col-6">
+    
+            </div>
+            <div class="col-6 text-right" style="margin-top: -100px">
+                <div class="dropdown">
+                <button style="background-color: white;color:black" class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                
+                <i class="fa fa-filter"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Seleccione la magnitud del Eje X</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
 
 
 <div class="container">
+    <div class="row">
+        <div class="col-12">
+            Tipos de Grafico
+        </div>
+    </div>
     <div class="row" style="margin-top: 10px;">
             <div class="col" >
             
-                <button (click)="handleClickEstandar($event)" class=" btn btn-primary">
+                <button (click)="handleClickEstandar($event)" class=" btn btn-primary  btn-block">
                     Estandar
                 </button>
             </div>
         <div class="col" >
             
-            <button (click)="handleClickRectagulo($event)" class=" btn btn-primary">
+            <button (click)="handleClickRectagulo($event)" class=" btn btn-primary  btn-block">
                 Rectangulo
             </button>
         </div>
         <div class="col">
-            <button (click)="handleClickBarras($event)" class=" btn btn-primary">
+            <button (click)="handleClickBarras($event)" class=" btn btn-primary  btn-block">
                 Barras
             </button>
         </div>
         <div class="col">
-            <button (click)="handleClickGlifo($event)" class=" btn btn-primary">
+            <button (click)="handleClickGlifo($event)" class=" btn btn-primary  btn-block">
                 Glifo
             </button>
         </div>
     </div>
-    <!-- <div class="row" style="margin-top: 10px;">
-        <div class="col">
-            <button class="btn btn-primary">
-                Boton
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-12">
+            Aspectos Fisicos
+        </div>
+    </div>
+    <div class="row" style="margin-top: 10px;">
+        <div class="col-4">
+            <button class="btn btn-primary btn-block">
+                Cambiar Color
             </button>
         </div>
-        <div class="col">
-            <button class="btn btn-primary">
-                Boton
-            </button>
+        <div class="col-4">
+                <button class="btn btn-primary btn-block">
+                    Sombreado
+                </button>
         </div>
-        <div class="col">
-            <button class="btn btn-primary">
-                Boton
-            </button>
+        <div class="col-4">
+                <button class="btn btn-primary btn-block">
+                   Reflejo
+                </button>
         </div>
-    </div> -->
+    </div>
     
 </div>
 
