@@ -21,11 +21,9 @@
             <i class="fa fa-filter"></i>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Seleccione la magnitud de Tamano</a>
+            <a class="dropdown-item" href="#">Seleccione el campo de Tamaño</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" (click)="handleClickEstandar($event)" href="#">Poblacion</a>
-            <a class="dropdown-item" href="#">Area</a>
-            <a class="dropdown-item" href="#">Densidad de Poblacion</a>
+                    <a *ngFor="let l of ejeZOpciones" class="dropdown-item" (click)="handleClickEjeZ(l)" href="#">{{l}}</a>
             </div>
         </div>
         </div>

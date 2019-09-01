@@ -18,8 +18,9 @@ export class BubbleChartComponent implements OnInit {
   private ejeX = 'Densidad';
   private ejeZ = 'Poblacion';
   private tittle = 'Grafico de ' + this.tipo + ', ' + this.ejeY + ' vs ' + this.ejeX;
-  public ejeXOpciones = ['Area', 'Poblacion', 'Densidad']
+  public ejeXOpciones = ['Area', 'Poblacion', 'Densidad','CantonN']
   public ejeYOpciones = ['Area', 'Poblacion', 'Densidad']
+  public ejeZOpciones = ['Area', 'Poblacion', 'Densidad']
 
   @Input()
   data: DataModelPoblacion[];
@@ -47,30 +48,34 @@ export class BubbleChartComponent implements OnInit {
 
   public handleClickEstandar(event: Event): void {
     this.type = 'bubbles';
-    this.tittle = 'Grafico de Burbujas';
-    this.changeTittle(this.tittle);
+    this.tipo = 'Burbujas';
+    const ti =  'Grafico de ' + this.tipo + ', ' + this.ejeY + ' vs ' + this.ejeX;
+    this.changeTittle(ti);
     this.changeChart(this.type);
 
   }
   public handleClickRectagulo(event: Event): void {
     this.type = 'rectangulo';
-    this.tittle = 'Grafico de Rectangulos';
-    this.changeTittle(this.tittle);
+    this.tipo = 'Rectangulo'
+     const ti =  'Grafico de ' + this.tipo + ', ' + this.ejeY + ' vs ' + this.ejeX;
+    this.changeTittle(ti);
     this.changeChart(this.type);
   }
 
   public handleClickBarras(event: Event): void {
     this.type = 'barras';
-    this.tittle = 'Grafico de Barras';
-    this.changeTittle(this.tittle);
+    this.tipo = 'Barras'
+     const ti =  'Grafico de ' + this.tipo + ', ' + this.ejeY + ' vs Canton';
+    this.changeTittle(ti);
 
     this.changeChart(this.type);
   }
 
   public handleClickGlifo(event: Event): void {
     this.type = 'glifo';
-    this.tittle = 'Grafico de Glifo';
-    this.changeTittle(this.tittle);
+    this.tipo= 'glifo'
+    const ti =  'Grafico de ' + this.tipo + ', ' + this.ejeY + ' vs ' + this.ejeX;
+    this.changeTittle(ti);
     this.changeChart(this.type);
   }
   public handleClickEjeX(eje:string): void {
@@ -87,7 +92,11 @@ export class BubbleChartComponent implements OnInit {
     this.changeTittle(ti);
     this.changeChart(this.type);
   }
+  public handleClickEjeZ(eje:string): void {
 
+    this.ejeZ = eje;
+    this.changeChart(this.type);
+  }
 
   private changeChart(type: string): void {
     d3.select('svg').remove();
