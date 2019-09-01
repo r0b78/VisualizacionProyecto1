@@ -2,14 +2,14 @@
 <div class="row" style="margin-top: 50px;margin-bottom: 30px;">
     <div class="col text-center">
         <h2 #lblName id ="lblName">
-            
+
         </h2>
-        
+
     </div>
 </div>
 
 <div class="col-11">
-    
+
     <div class="row">
         <div class="col-6">
 
@@ -17,13 +17,13 @@
         <div class="col-6 text-right">
             <div class="dropdown">
             <button style="background-color: white;color:black" class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            
+
             <i class="fa fa-filter"></i>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#">Seleccione la magnitud de Tamano</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Poblacion</a>
+            <a class="dropdown-item" (click)="handleClickEstandar($event)" href="#">Poblacion</a>
             <a class="dropdown-item" href="#">Area</a>
             <a class="dropdown-item" href="#">Densidad de Poblacion</a>
             </div>
@@ -32,18 +32,18 @@
     </div>
 </div>
 
-<div #my_data id="my_data"></div> 
+<div #my_data id="my_data"></div>
 
 <div class="col-11" style="display: none;">
-    
+
         <div class="row">
             <div class="col-6">
-    
+
             </div>
             <div class="col-6 text-right" style="margin-top: -100px">
                 <div class="dropdown">
                 <button style="background-color: white;color:black" class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                
+
                 <i class="fa fa-filter"></i>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -66,13 +66,13 @@
     </div>
     <div class="row" style="margin-top: 10px;">
             <div class="col" >
-            
+
                 <button (click)="handleClickEstandar($event)" class=" btn btn-primary  btn-block">
                     Estandar
                 </button>
             </div>
         <div class="col" >
-            
+
             <button (click)="handleClickRectagulo($event)" class=" btn btn-primary  btn-block">
                 Rectangulo
             </button>
@@ -110,24 +110,44 @@
                 </button>
         </div>
     </div>
+
+
     <div class="row" style="margin-top: 20px;">
-        <div class="col-12">
-            Configurar Ejes
-        </div>
+      <div class="col-12 text-center">
+          Configurar Ejes
+      </div>
     </div>
-    <div class="row" style="margin-top: 10px;">
-        <div class="col-6">
-            <button class="btn btn-primary btn-block">
-                Cambiar Color
+
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-6 text-center">
+            <div class="dropdown">
+              <button style="background-color: white;color:black" class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Eje X
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Seleccione la magnitud de Tamano</a>
+              <div class="dropdown-divider"></div>
+              <a *ngFor="let l of ejeXOpciones" class="dropdown-item" (click)="handleClickEjeX(l)" href="#">{{l}}</a>
+
+              </div>
+          </div>
+        </div>
+         <div class="col-6 text-center">
+            <div class="dropdown">
+            <button style="background-color: white;color:black" class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Eje Y
             </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Seleccione la magnitud de Tamano</a>
+            <div class="dropdown-divider"></div>
+            <a *ngFor="let l of ejeYOpciones" class="dropdown-item" (click)="handleClickEjeY(l)" href="#">{{l}}</a>
+
+            </div>
         </div>
-        <div class="col-6">
-                <button class="btn btn-primary btn-block">
-                    Sombreado
-                </button>
-        </div>
-    </div>
-    
-    
+
+         </div>
+
+
+
 </div>
 

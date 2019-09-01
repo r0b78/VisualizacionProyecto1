@@ -1,5 +1,7 @@
 export interface DataModelPoblacion {
     Canton: string;
     Poblacion: number;
-    Desidad: number
+    Desidad: number;
+    Area: number;
+
   }
