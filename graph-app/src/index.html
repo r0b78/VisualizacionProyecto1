@@ -12,6 +12,38 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
+
+  <style>
+  .innerCircle {
+  fill: white;
+  fill-opacity: 0;
+  stroke: black;
+  stroke-width: 3px;
+  transition: stroke-opacity 1s, stroke-width 1s, transform 1s;
+  transform-origin: 50% 50%;
+  }
+
+  .innerCircle:hover {
+    stroke-opacity: 0;
+    stroke-width: 0;
+    transform: scale(2);
+  }
+  @keyframes buttonTransition {
+    from {
+       r:1%
+    }
+    to {
+    }
+}
+
+.innerCircle2 {
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: buttonTransition;
+}
+
+  </style>
+
   <app-root></app-root>
 </body>
 </html>

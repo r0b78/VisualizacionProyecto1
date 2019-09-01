@@ -93,18 +93,18 @@
     </div>
     <div class="row" style="margin-top: 10px;">
         <div class="col-4">
-            <button class="btn btn-primary btn-block">
+            <button (click)="handleClickCambiarColor()" class="btn btn-primary btn-block">
                 Cambiar Color
             </button>
         </div>
         <div class="col-4">
-                <button class="btn btn-primary btn-block">
-                    Sombreado
+                <button (click) = "handleClickAnimacion('D')" class="btn btn-primary btn-block">
+                    Desvanece
                 </button>
         </div>
         <div class="col-4">
-                <button class="btn btn-primary btn-block">
-                   Reflejo
+                <button (click) = "handleClickAnimacion('P')" class="btn btn-primary btn-block">
+                   Palpitando
                 </button>
         </div>
     </div>

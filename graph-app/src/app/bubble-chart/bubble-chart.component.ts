@@ -17,11 +17,13 @@ export class BubbleChartComponent implements OnInit {
   private ejeY = 'Poblacion';
   private ejeX = 'Densidad';
   private ejeZ = 'Poblacion';
+  private colorSet = 1;
   private tittle = 'Grafico de ' + this.tipo + ', ' + this.ejeY + ' vs ' + this.ejeX;
+  private tipoAnimacion = '';
   public ejeXOpciones = ['Area', 'Poblacion', 'Densidad','CantonN']
   public ejeYOpciones = ['Area', 'Poblacion', 'Densidad']
   public ejeZOpciones = ['Area', 'Poblacion', 'Densidad']
-
+  
   @Input()
   data: DataModelPoblacion[];
 
@@ -95,6 +97,21 @@ export class BubbleChartComponent implements OnInit {
   public handleClickEjeZ(eje:string): void {
 
     this.ejeZ = eje;
+    this.changeChart(this.type);
+  }
+  public handleClickAnimacion(eje:string): void {
+    if(eje === 'D') {
+      this.tipoAnimacion = 'innerCircle'
+    }
+    if(eje === 'P') {
+      this.tipoAnimacion = 'innerCircle2'
+    }
+    this.changeChart(this.type);
+  }
+  public handleClickCambiarColor(): void {
+     const n = Math.floor(Math.random() * 3+1); 
+    this.colorSet= n
+    console.log(n)
     this.changeChart(this.type);
   }
 
@@ -198,16 +215,15 @@ export class BubbleChartComponent implements OnInit {
       'San José': '/assets/img/sanJose.png',
       'Alajuela': '/assets/img/alajuela.jpg',
       'Cartago': '/assets//img/papa.jpg',
-      // tslint:disable-next-line: object-literal-key-quotes
       'Limón': '/assets//img/limon.jpg',
       'Heredia': '/assets//img/heredia.png',
       'Puntarenas': '/assets//img/puntarenas.jpg',
       'Guanacaste': '/assets//img/guanacaste.png'
     };
-
+    const colorSet = 'schemeSet'+this.colorSet
     let myColor = d3.scaleOrdinal()
       .domain(districArray)
-      .range(d3.schemeSet1);
+      .range(d3[colorSet]);
 
     if (type === 'glifo') {
 
@@ -216,6 +232,7 @@ export class BubbleChartComponent implements OnInit {
         .data(data)
         .enter()
         .append('image')
+        .attr('class',this.tipoAnimacion)
         .attr('x', function(d) { return x(d[that.ejeX]); })
         .attr('y', function(d) { return y(d[that.ejeY]); })
         .attr('xlink:href', function(d) { return districImages[d.Provincia]; })
@@ -235,6 +252,7 @@ export class BubbleChartComponent implements OnInit {
         .data(data)
         .enter()
         .append('rect')
+        .attr('class',this.tipoAnimacion)
         .attr('x', function(d) { return x(d[that.ejeX]); })
         .attr('y', function(d) { return y(d[that.ejeY]); })
         .attr('height', function(d) { return z(d[that.ejeZ]); })
@@ -248,18 +266,19 @@ export class BubbleChartComponent implements OnInit {
     }
 
     if (type == 'bubbles') {
+      
       svg.append('g')
         .selectAll('dot')
         .data(data)
         .enter()
         .append('circle')
+        .attr('class',this.tipoAnimacion)
         .attr('cx', function(d) { return x(d[that.ejeX]); })
         .attr('cy', function(d) { return y(d[that.ejeY]); })
         .attr('r', function(d) { return z(d[that.ejeZ]); })
         .style('fill', function(d) { return myColor(d.Provincia); })
         .style('opacity', '0.7')
         .attr('stroke', 'black')
-
         .on('mouseover', showTooltip)
         .on('mousemove', moveTooltip)
         .on('mouseleave', hideTooltip);
