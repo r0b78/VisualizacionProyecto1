@@ -18,6 +18,7 @@ export class BubbleChartComponent implements OnInit {
   private ejeX = 'Densidad';
   private ejeZ = 'Poblacion';
   private colorSet = 1;
+  private dataSetGraficoBarras = 0;
   private tittle = 'Grafico de ' + this.tipo + ', ' + this.ejeY + ' vs ' + this.ejeX;
   private tipoAnimacion = '';
   public ejeXOpciones = ['Area', 'Poblacion', 'Densidad','CantonN']
@@ -108,6 +109,20 @@ export class BubbleChartComponent implements OnInit {
     }
     this.changeChart(this.type);
   }
+  public handleClickBarraDer(): void {
+     if(this.dataSetGraficoBarras>this.data.length-11) {
+       this.dataSetGraficoBarras = this.data.length-20;
+     }
+    this.dataSetGraficoBarras +=10;
+    this.changeChart(this.type);
+  }
+  public handleClickBarraIzq(): void {
+     this.dataSetGraficoBarras -=10;
+     if(this.dataSetGraficoBarras<0) {
+       this.dataSetGraficoBarras = 0;
+     }
+    this.changeChart(this.type);
+  }
   public handleClickCambiarColor(): void {
      const n = Math.floor(Math.random() * 3+1); 
     this.colorSet= n
@@ -128,7 +143,7 @@ export class BubbleChartComponent implements OnInit {
 
   private createBubbleChart(type: string): void {
     const element = this.chartContainer.nativeElement;
-
+    d3.select('#arrows').attr('style','display:none')
     const data = this.data;
     let that = this;
     const svg = d3.select('#my_data')
@@ -368,9 +383,16 @@ export class BubbleChartComponent implements OnInit {
 
   private createBarChart(): void {
     d3.select('svg').remove();
+    d3.select('#arrows').attr('style','')
     const margin = { top: 40, right: 10, bottom: 30, left: 80 };
     const element = this.chartContainer.nativeElement;
-    const data = this.data.slice(0, 10);
+    let  dataI = this.data;
+    if(this.dataSetGraficoBarras != 0) {
+    
+      var sup = this.dataSetGraficoBarras+10
+      dataI = this.data.slice(this.dataSetGraficoBarras, sup);
+    }
+    const data = dataI
     const svg = d3.select(element).append('svg')
       .attr('width', element.offsetWidth)
       .attr('height', 300);

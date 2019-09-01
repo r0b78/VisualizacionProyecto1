@@ -32,25 +32,27 @@
 
 <div #my_data id="my_data"></div>
 
-<div class="col-11" style="display: none;">
+<div class="col-11" style="">
 
-        <div class="row">
-            <div class="col-6">
+        <div id="arrows" class="row" style="display:none">
+            <div class="col-9">
 
-            </div>
-            <div class="col-6 text-right" style="margin-top: -100px">
-                <div class="dropdown">
-                <button style="background-color: white;color:black" class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
-                <i class="fa fa-filter"></i>
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Seleccione la magnitud del Eje X</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
                 </div>
-            </div>
+                <div class="col-1 text-left" >
+                    <div class="dropdown">
+                    <button (click)="handleClickBarraIzq()" >
+                   <i class="fas fa-arrow-right"></i>
+                    </button>
+                    </div>
+                </div>
+                <div class="col-1 text-right">
+                    <div class="dropdown">
+                    <button (click)="handleClickBarraDer()">
+                 <i class="fas fa-arrow-right"></i>
+                    </button>   
+                    
+                </div>
+
             </div>
         </div>
     </div>
